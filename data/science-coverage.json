@@ -1,0 +1,196 @@
+{
+  "examined": 225,
+  "published": 224,
+  "byYear": {
+    "2019": 45,
+    "2020": 44,
+    "2021": 45,
+    "2022": 45,
+    "2023": 45
+  },
+  "byArea": {
+    "quimica": 65,
+    "fisica": 79,
+    "biologia": 80
+  },
+  "byTopic": {
+    "biologia:biotecnologia": 9,
+    "biologia:citologia": 13,
+    "biologia:ecologia": 17,
+    "biologia:evolucao": 8,
+    "biologia:fisiologia": 19,
+    "biologia:genetica": 7,
+    "biologia:microbiologia": 8,
+    "fisica:eletricidade": 22,
+    "fisica:mecanica": 21,
+    "fisica:moderna": 6,
+    "fisica:ondas": 8,
+    "fisica:optica": 5,
+    "fisica:termologia": 18,
+    "quimica:ambiental": 16,
+    "quimica:fisicoquimica": 15,
+    "quimica:geral": 9,
+    "quimica:organica": 17,
+    "quimica:solucoes": 11
+  },
+  "byYearArea": {
+    "2019": {
+      "quimica": 13,
+      "fisica": 15,
+      "biologia": 17
+    },
+    "2020": {
+      "fisica": 16,
+      "quimica": 15,
+      "biologia": 13
+    },
+    "2021": {
+      "quimica": 11,
+      "fisica": 16,
+      "biologia": 18
+    },
+    "2022": {
+      "quimica": 13,
+      "biologia": 16,
+      "fisica": 16
+    },
+    "2023": {
+      "biologia": 16,
+      "fisica": 16,
+      "quimica": 13
+    }
+  },
+  "byYearTopic": {
+    "2019": {
+      "biologia:biotecnologia": 1,
+      "biologia:citologia": 4,
+      "biologia:ecologia": 4,
+      "biologia:evolucao": 1,
+      "biologia:fisiologia": 5,
+      "biologia:genetica": 1,
+      "biologia:microbiologia": 2,
+      "fisica:eletricidade": 3,
+      "fisica:mecanica": 5,
+      "fisica:optica": 2,
+      "fisica:termologia": 5,
+      "quimica:ambiental": 2,
+      "quimica:fisicoquimica": 3,
+      "quimica:geral": 3,
+      "quimica:organica": 4,
+      "quimica:solucoes": 1
+    },
+    "2020": {
+      "biologia:biotecnologia": 2,
+      "biologia:citologia": 2,
+      "biologia:ecologia": 4,
+      "biologia:evolucao": 2,
+      "biologia:fisiologia": 1,
+      "biologia:genetica": 1,
+      "biologia:microbiologia": 1,
+      "fisica:eletricidade": 5,
+      "fisica:mecanica": 3,
+      "fisica:moderna": 1,
+      "fisica:ondas": 2,
+      "fisica:optica": 1,
+      "fisica:termologia": 5,
+      "quimica:ambiental": 7,
+      "quimica:fisicoquimica": 4,
+      "quimica:geral": 1,
+      "quimica:organica": 2,
+      "quimica:solucoes": 2
+    },
+    "2021": {
+      "biologia:biotecnologia": 2,
+      "biologia:citologia": 2,
+      "biologia:ecologia": 5,
+      "biologia:evolucao": 3,
+      "biologia:fisiologia": 3,
+      "biologia:genetica": 2,
+      "biologia:microbiologia": 1,
+      "fisica:eletricidade": 7,
+      "fisica:mecanica": 3,
+      "fisica:moderna": 1,
+      "fisica:ondas": 1,
+      "fisica:termologia": 4,
+      "quimica:ambiental": 1,
+      "quimica:fisicoquimica": 4,
+      "quimica:geral": 1,
+      "quimica:organica": 4,
+      "quimica:solucoes": 1
+    },
+    "2022": {
+      "biologia:biotecnologia": 3,
+      "biologia:citologia": 3,
+      "biologia:ecologia": 1,
+      "biologia:evolucao": 1,
+      "biologia:fisiologia": 4,
+      "biologia:genetica": 1,
+      "biologia:microbiologia": 3,
+      "fisica:eletricidade": 5,
+      "fisica:mecanica": 6,
+      "fisica:moderna": 2,
+      "fisica:ondas": 1,
+      "fisica:optica": 1,
+      "fisica:termologia": 1,
+      "quimica:ambiental": 3,
+      "quimica:fisicoquimica": 4,
+      "quimica:geral": 2,
+      "quimica:organica": 1,
+      "quimica:solucoes": 3
+    },
+    "2023": {
+      "biologia:biotecnologia": 1,
+      "biologia:citologia": 2,
+      "biologia:ecologia": 3,
+      "biologia:evolucao": 1,
+      "biologia:fisiologia": 6,
+      "biologia:genetica": 2,
+      "biologia:microbiologia": 1,
+      "fisica:eletricidade": 2,
+      "fisica:mecanica": 4,
+      "fisica:moderna": 2,
+      "fisica:ondas": 4,
+      "fisica:optica": 1,
+      "fisica:termologia": 3,
+      "quimica:ambiental": 3,
+      "quimica:geral": 2,
+      "quimica:organica": 6,
+      "quimica:solucoes": 4
+    }
+  },
+  "excluded": [
+    {
+      "id": "2020-135",
+      "reason": "Questão 135 anulada no gabarito oficial do caderno 7 azul de 2020."
+    }
+  ],
+  "answerKeyCorrections": [],
+  "transcriptionCorrections": [
+    {
+      "ids": [
+        "2019-98",
+        "2019-100",
+        "2019-128"
+      ],
+      "reason": "Itens ausentes da base auxiliar, transcritos do caderno oficial."
+    },
+    {
+      "ids": [
+        "2021-105",
+        "2023-132"
+      ],
+      "reason": "Alternativas gráficas ausentes descritas a partir do caderno oficial."
+    },
+    {
+      "ids": [
+        "2021-119",
+        "2022-109",
+        "2022-132",
+        "2023-99",
+        "2023-102",
+        "2023-129"
+      ],
+      "reason": "Falhas de transcrição, imagem ou separação de campos corrigidas."
+    }
+  ]
+}

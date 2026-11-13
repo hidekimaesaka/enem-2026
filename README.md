@@ -1,6 +1,6 @@
-# MATEMATIKO PARA ENÊ
+# MATEMATIKO E OTAS COISA DO ENÊ
 
-Aplicativo de prática de Matemática para o ENEM, feito com React, TypeScript e Vite. O mesmo repositório do antigo “ENEM em foco” é usado para manter a integração com a Vercel. O catálogo contém 147 questões distintas de aplicações regulares impressas entre 2019 e 2023. Cada questão pode integrar mais de um dos nove temas.
+Aplicativo de prática de Matemática e Ciências da Natureza para o ENEM, feito com React, TypeScript e Vite. O repositório continua ligado ao projeto existente da Vercel. O catálogo contém 371 questões distintas das aplicações regulares impressas de 2019 a 2023: 147 de Matemática, 80 de Biologia, 79 de Física e 65 de Química. As questões de Ciências estão distribuídas em temas dentro de cada área.
 
 ## Uso
 
@@ -24,11 +24,12 @@ O catálogo publicado está em `public/questions.json`; as imagens estão em `pu
 
 As resoluções e classificações foram escritas para este aplicativo. A dificuldade é uma estimativa pedagógica: interpretação/modelagem, conceitos/etapas e cálculos/representações recebem 0 a 2 pontos cada. Soma 0–2 é Fácil; 3–4 é Média; 5–6 é Difícil. Essa classe não equivale à TRI nem à porcentagem histórica de acerto.
 
-`data/coverage.json` registra quantidades por tema e ano, questões excluídas com motivo e divergências corrigidas no gabarito importado. Nenhum ano anterior a 2019 foi necessário para alcançar o mínimo de cinco questões por tema.
+`data/coverage.json` documenta Matemática. `data/science-coverage.json` documenta a revisão dos 225 itens de Ciências da Natureza, com 224 publicados e a questão 2020/135 excluída por anulação oficial. `data/science-keys.json` registra os gabaritos do Inep; `data/science-hints.tsv` registra área, tema, rubrica e resolução específica dos itens de Ciências. Os três itens ausentes da base auxiliar em 2019 foram transcritos da prova oficial em `data/science-recovered.json`.
 
 Para regenerar o catálogo, clone `https://github.com/yunger7/enem-api.git` em uma pasta `enem-source` adjacente a este repositório, deixe os arquivos de revisão e PDFs oficiais em `data/review` e `work/review`, respectivamente, e execute:
 
 ```sh
 python scripts/build_questions.py
+python scripts/build_science.py
 python scripts/validate_content.py
 ```
