@@ -1,0 +1,593 @@
+[
+  {
+    "index": 136,
+    "topics": [
+      "espacial"
+    ],
+    "explanation": [
+      "Com o Sol a pino, os raios chegam verticalmente: a sombra corresponde à vista superior da escultura, e não ao desenho frontal das letras.",
+      "A projeção elimina a altura. Cada letra gera uma faixa com sua largura e a espessura comum; a letra I produz a faixa mais estreita. Os quatro intervalos de projeção mantêm os três espaçamentos entre letras.",
+      "As projeções de P, N e E são retangulares mais largas, e a de I é estreita. A disposição correspondente é a alternativa E."
+    ],
+    "rubric": [
+      1,
+      1,
+      0
+    ],
+    "rationale": "Exige visualizar a projeção vertical de letras tridimensionais e distinguir largura, altura e espessura; não exige cálculo."
+  },
+  {
+    "index": 137,
+    "topics": [
+      "algebra",
+      "funcoes"
+    ],
+    "explanation": [
+      "Para a flor ser rosa e ter maior valor comercial, as duas condições devem valer: $7<\\mathrm{pH}<8$.",
+      "Substituindo $\\mathrm{pH}=-\\log_{10}x$, temos $7<-\\log_{10}x<8$. Ao multiplicar por −1, os sinais se invertem: $-8<\\log_{10}x<-7$.",
+      "Como a potência de base 10 é crescente, $10^{-8}<x<10^{-7}$. Alternativa E."
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "É preciso traduzir as condições de cor e valor comercial em intervalo e inverter corretamente os sinais ao operar o logaritmo."
+  },
+  {
+    "index": 138,
+    "topics": [
+      "algebra"
+    ],
+    "explanation": [
+      "Seja $V$ o valor do objeto e $R$ a recompensa. O transporte custa $V/5=0{,}20V$.",
+      "O limite de gasto impõe $R+0{,}20V\\le V$, portanto $R\\le0{,}80V$.",
+      "A maior recompensa é 80% do valor do objeto, também superior ao mínimo de 5%. Alternativa E."
+    ],
+    "rubric": [
+      1,
+      1,
+      0
+    ],
+    "rationale": "A recompensa máxima é obtida por uma inequação de orçamento com uma única incógnita e uma fração simples."
+  },
+  {
+    "index": 139,
+    "topics": [
+      "funcoes"
+    ],
+    "explanation": [
+      "Até $6\\,\\mathrm{m}^3$, o valor é fixo: $P(V)=12$. O gráfico começa com um segmento horizontal.",
+      "Entre 6 e 10, $P(V)=12+3(V-6)$, chegando a $P(10)=24$. O segundo trecho cresce com inclinação 3.",
+      "Acima de 10, $P(V)=24+6(V-10)$. O trecho final continua sem salto, mas fica mais inclinado. Essa combinação corresponde ao gráfico A."
+    ],
+    "rubric": [
+      1,
+      2,
+      0
+    ],
+    "rationale": "Exige construir uma função por partes e interpretar tanto a continuidade quanto a mudança de inclinação nas faixas."
+  },
+  {
+    "index": 140,
+    "excluded": "Notação científica e representação numérica; não aborda diretamente os nove temas selecionados."
+  },
+  {
+    "index": 141,
+    "topics": [
+      "algebra"
+    ],
+    "explanation": [
+      "Denote nível por $n$ e experiência por $e$. A defesa tem forma $D=kne^2$ e o ataque $A=ce n^2$. Nas condições iniciais $n=e=1$, temos $k=1$ e $c=2$.",
+      "O ataque de J₁ vale $2\\cdot5\\cdot4^2=160$. A defesa de J₂ vale $2\\cdot6^2=72$.",
+      "A diferença é $160-72=88$, positiva; J₁ vence. Alternativa B."
+    ],
+    "rubric": [
+      1,
+      2,
+      1
+    ],
+    "rationale": "Combina a determinação de constantes de proporcionalidade com duas expressões envolvendo quadrados e comparação de resultados."
+  },
+  {
+    "index": 142,
+    "topics": [
+      "plana"
+    ],
+    "explanation": [
+      "O raio original é $6/2=3$ m. O novo diâmetro é $6+8=14$ m, portanto o novo raio é 7 m.",
+      "A área adicional é uma coroa circular: $A=\\pi(7^2-3^2)=3(49-9)=120\\,\\mathrm{m}^2$.",
+      "Como há material para apenas 100 m², faltam 20 m² de revestimento. A área a pavimentar é 120 m²: alternativa E."
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "É preciso converter diâmetros em raios e calcular a diferença entre duas áreas circulares, sem confundir área final e acréscimo."
+  },
+  {
+    "index": 143,
+    "topics": [
+      "funcoes"
+    ],
+    "explanation": [
+      "O consumo por minuto é a razão entre a energia gasta e o tempo, e não apenas a altura do ponto no gráfico.",
+      "Para I, II, III, IV e V, as taxas são, respectivamente, $20/10=2$, $100/15\u0007pprox6{,}67$, $120/20=6$, $100/25=4$ e $80/30\u0007pprox2{,}67$ kcal/min.",
+      "A maior taxa é a da atividade II. Alternativa B."
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Compara taxas de variação a partir de coordenadas de um gráfico; exige distinguir valor absoluto de consumo por unidade de tempo."
+  },
+  {
+    "index": 144,
+    "topics": [
+      "algebra"
+    ],
+    "explanation": [
+      "Cada coluna corresponde a um dia. Para encontrar o total de acertos de um teste, some a coluna, não a linha de um aluno.",
+      "Os totais são: segunda $3+3+2+3+0=11$; terça $2+2+2+2+2=10$; quarta $0+4+2+4+0=10$; quinta $1+1+3+1+4=10$; sexta $2+2+2+0+4=10$.",
+      "O maior total, 11, ocorreu na segunda-feira. Alternativa A."
+    ],
+    "rubric": [
+      1,
+      1,
+      0
+    ],
+    "rationale": "Exige interpretar linhas e colunas de uma matriz e somar os elementos da coluna correta; os cálculos são inteiros simples."
+  },
+  {
+    "index": 145,
+    "topics": [
+      "plana",
+      "algebra"
+    ],
+    "explanation": [
+      "Em cada volta dos pedais, a corrente percorre o mesmo comprimento. Uma catraca menor completa mais voltas porque seu comprimento é $\\pi d$.",
+      "Se a nova catraca deve produzir 1,5 vez o avanço, sua quantidade de voltas deve ser multiplicada por 1,5. Assim, $7/d=1{,}5$.",
+      "Logo, $d=7/1{,}5=4{,}666\\ldots$ cm, aproximadamente 4,7 cm. Alternativa C."
+    ],
+    "rubric": [
+      2,
+      1,
+      1
+    ],
+    "rationale": "A modelagem exige reconhecer que o avanço é inversamente proporcional ao diâmetro da catraca e converter o aumento de 50% em fator 1,5."
+  },
+  {
+    "index": 146,
+    "excluded": "Leitura de gráfico meteorológico e verificação de condições lógicas; sem conteúdo central dos nove temas."
+  },
+  {
+    "index": 147,
+    "topics": [
+      "plana"
+    ],
+    "explanation": [
+      "O topo da placa é um semicírculo de raio 20 cm. A parte retangular tem largura 40 cm e altura $60-20=40$ cm.",
+      "A área de uma placa é $40\\cdot40+\frac{3{,}14\\cdot20^2}{2}=1600+628=2228\\,\\mathrm{cm}^2$.",
+      "Para dez placas, a área total é $10\\cdot2228=22280\\,\\mathrm{cm}^2$. Alternativa B."
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Requer decompor uma figura composta em retângulo e semicírculo, evitando contar a parte circular sobreposta duas vezes."
+  },
+  {
+    "index": 148,
+    "excluded": "Conversão entre capacidade e volume, porcentagem e arredondamento de uma divisão; sem cálculo geométrico de sólidos."
+  },
+  {
+    "index": 149,
+    "topics": [
+      "pa"
+    ],
+    "explanation": [
+      "De 2014 para 2015, os acidentes passaram de 900 para 850. A redução absoluta é 50, portanto a razão é $r=-50$.",
+      "Mantendo a razão, os totais são 800 em 2016, 750 em 2017 e 700 em 2018.",
+      "Equivalentemente, $a_{2018}=850+3(-50)=700$. Alternativa D."
+    ],
+    "rubric": [
+      1,
+      1,
+      0
+    ],
+    "rationale": "Reconhece uma redução absoluta constante e aplica a razão de uma PA durante três anos."
+  },
+  {
+    "index": 150,
+    "topics": [
+      "pg",
+      "algebra"
+    ],
+    "explanation": [
+      "A taxa mensal de 1% corresponde ao fator geométrico $1{,}01$. Um valor aplicado por $n$ meses é multiplicado por $(1{,}01)^n$.",
+      "Traga cada pagamento ao instante da compra: o primeiro vale $202/1{,}01=200$ reais; o segundo vale $204{,}02/(1{,}01)^2=200$ reais.",
+      "O preço à vista é a soma desses valores presentes: $200+200=400$ reais. Alternativa B."
+    ],
+    "rubric": [
+      2,
+      1,
+      1
+    ],
+    "rationale": "É necessário trazer prestações de datas diferentes ao mesmo instante por fatores sucessivos de juros compostos, sem simplesmente somá-las."
+  },
+  {
+    "index": 151,
+    "excluded": "Divisão proporcional de investimentos e porcentagens, resolvida por operações aritméticas; fora dos nove recortes temáticos."
+  },
+  {
+    "index": 152,
+    "topics": [
+      "algebra"
+    ],
+    "explanation": [
+      "Se $k$ é a constante de proporcionalidade, os pagamentos são $k/2$, $k/3$ e $k/5$.",
+      "A soma é $k(1/2+1/3+1/5)=31000$. Como a soma das frações é $31/30$, resulta $k=30000$.",
+      "A máquina mais antiga tem 5 anos e recebe $30000/5=6000$ reais. Alternativa B."
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Modela uma partilha inversamente proporcional por uma constante comum e resolve uma equação com frações."
+  },
+  {
+    "index": 153,
+    "excluded": "Porcentagens sucessivas com taxas diferentes; não constitui PG nem exige modelagem algébrica ou funcional."
+  },
+  {
+    "index": 154,
+    "topics": [
+      "funcoes",
+      "algebra"
+    ],
+    "explanation": [
+      "Na fórmula, $A\\cdot f=2000\\cdot0{,}2=400$. Portanto, $M_s=3{,}30+\\log400$.",
+      "Como $400=2^2\\cdot10^2$, temos $\\log400=2\\log2+2\u0007pprox2(0{,}3)+2=2{,}6$.",
+      "Logo, $M_s\u0007pprox5{,}9$, no intervalo de 5,0 a 5,9 da classificação moderado. Alternativa C."
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Aplica uma expressão logarítmica com propriedade do produto e da potência e interpreta o resultado em uma tabela de intervalos."
+  },
+  {
+    "index": 155,
+    "excluded": "Sequência periódica com repetição de bloco; não é PA ou PG e não tem modelagem algébrica central."
+  },
+  {
+    "index": 156,
+    "topics": [
+      "combinatoria"
+    ],
+    "explanation": [
+      "Identifique os dois canhotos. O primeiro pode escolher um dos 6 destros; o segundo pode escolher um dos 5 restantes. Há $6\\cdot5=30$ escolhas para essas duas duplas.",
+      "Restam quatro destros. Fixando um deles, ele pode formar dupla com qualquer um dos outros três; os dois restantes formam a última dupla. Portanto, há 3 emparelhamentos.",
+      "O total é $30\\cdot3=90$ formações. Não se multiplica pela ordem das duplas, pois elas não são ordenadas. Alternativa C."
+    ],
+    "rubric": [
+      2,
+      2,
+      1
+    ],
+    "rationale": "Exige contar emparelhamentos sem ordem e impor a restrição dos canhotos, evitando multiplicar por ordens de duplas que não geram novos grupos."
+  },
+  {
+    "index": 157,
+    "topics": [
+      "espacial"
+    ],
+    "explanation": [
+      "O tetraedro tem quatro vértices. Cada corte paralelo à face oposta retira um vértice e cria uma face triangular equilátera: surgem 4 triângulos.",
+      "Cada uma das quatro faces triangulares originais perde seus três cantos. O contorno restante passa a ter seis lados.",
+      "Como os cortes retiram um terço de cada aresta, esses seis lados têm o mesmo comprimento, formando hexágonos regulares. O sólido tem 4 hexágonos regulares e 4 triângulos equiláteros. Alternativa A."
+    ],
+    "rubric": [
+      2,
+      1,
+      0
+    ],
+    "rationale": "Requer visualizar cortes simultâneos nos quatro vértices de um tetraedro e reconhecer as novas faces e as faces remanescentes."
+  },
+  {
+    "index": 158,
+    "topics": [
+      "espacial"
+    ],
+    "explanation": [
+      "A escala 1:200 vale para comprimentos. Por isso, os volumes reais são $200^3$ vezes os da maquete.",
+      "O volume real é $45\\cdot200^3=360000000\\,\\mathrm{cm}^3=360000$ litros.",
+      "Dividindo pelo consumo diário: $360000/30000=12$ dias. Alternativa C."
+    ],
+    "rubric": [
+      1,
+      2,
+      1
+    ],
+    "rationale": "Combina escala linear elevada ao cubo, conversão de volume para litros e divisão pelo consumo diário."
+  },
+  {
+    "index": 159,
+    "topics": [
+      "probabilidade"
+    ],
+    "explanation": [
+      "No modelo de percepções independentes usado pela questão, a probabilidade de não perceber nenhuma de $n$ placas é $(1/2)^n$. A de perceber pelo menos uma é $1-(1/2)^n$.",
+      "Exigimos $1-(1/2)^n>0{,}99$, ou $2^n>100$. Como $2^6=64$ e $2^7=128$, são necessárias ao menos 7 placas no total.",
+      "Já existe uma placa. Portanto, é preciso instalar $7-1=6$ novas placas. Alternativa D."
+    ],
+    "rubric": [
+      2,
+      2,
+      1
+    ],
+    "rationale": "Exige usar o evento complementar, multiplicação de probabilidades e a diferença entre quantidade total e novas placas."
+  },
+  {
+    "index": 160,
+    "excluded": "Média aritmética e efeito da substituição de uma observação; tema de estatística."
+  },
+  {
+    "index": 161,
+    "excluded": "Média ponderada em tabela de frequências; tema de estatística."
+  },
+  {
+    "index": 162,
+    "excluded": "Conversão de unidades de comprimento; não envolve conceito geométrico dos temas selecionados."
+  },
+  {
+    "index": 163,
+    "topics": [
+      "algebra"
+    ],
+    "explanation": [
+      "Como nenhum país atingiu os extremos do índice, $0<X<1$. Os valores são $X^1$, $X^{1/2}$, $X^{1/3}$, $X^2$ e $X^3$.",
+      "Para uma base estritamente entre zero e um, quanto menor o expoente, maior a potência. Por exemplo, multiplicar mais vezes por uma fração diminui o resultado.",
+      "O menor expoente é $1/3$. Logo, o maior índice é $X^{1/3}$, do terceiro país. Alternativa C."
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Exige comparar potências fracionárias de uma mesma base entre zero e um, situação em que a ordem dos expoentes se inverte."
+  },
+  {
+    "index": 164,
+    "topics": [
+      "plana",
+      "espacial"
+    ],
+    "explanation": [
+      "Divida a planta em três faixas horizontais: a inferior mede $14\\cdot5=70$ m², a intermediária mede $(8+3)\\cdot2=22$ m² e a superior mede $8\\cdot1=8$ m².",
+      "A área total é $70+22+8=100$ m². A espessura de 5 cm corresponde a 0,05 m; assim, o volume é $100\\cdot0{,}05=5$ m³.",
+      "Um único caminhão de capacidade máxima 5 m³ atende exatamente ao volume necessário. Alternativa C."
+    ],
+    "rubric": [
+      1,
+      2,
+      1
+    ],
+    "rationale": "Exige decompor uma planta em retângulos, converter a espessura em metros e usar área da base vezes altura."
+  },
+  {
+    "index": 165,
+    "topics": [
+      "algebra"
+    ],
+    "explanation": [
+      "O volume de sangue é numericamente $8\\%$ da massa corporal: $V=0{,}08m$, em litros.",
+      "A concentração é a quantidade de álcool dividida pelo volume: $C=q/(0{,}08m)$.",
+      "Para ser prejudicial no critério apresentado, $C>0{,}4$. Portanto, $\frac{q}{0{,}08m}>0{,}4$, expressão da alternativa E."
+    ],
+    "rubric": [
+      1,
+      1,
+      0
+    ],
+    "rationale": "Traduz uma razão entre grandezas e uma condição de limite em uma inequação, com conversão direta de porcentagem."
+  },
+  {
+    "index": 166,
+    "topics": [
+      "plana"
+    ],
+    "explanation": [
+      "A projeção horizontal de A até E mede $18-12=6$ cm, pois o lado inferior total tem 18 cm e o trecho EC mede 12 cm.",
+      "A distância vertical entre A e o lado inferior é 12 cm. Assim, AE é a hipotenusa de um triângulo com catetos 6 e 12.",
+      "Pelo teorema de Pitágoras, $AE=\\sqrt{6^2+12^2}=\\sqrt{180}=6\\sqrt5$ cm. Alternativa D."
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Requer identificar um triângulo retângulo na folha original e aplicar Pitágoras com simplificação de radical."
+  },
+  {
+    "index": 167,
+    "excluded": "Interpretação de mediana, média e moda para dividir uma amostra; tema de estatística."
+  },
+  {
+    "index": 168,
+    "topics": [
+      "funcoes",
+      "algebra"
+    ],
+    "explanation": [
+      "Dos $X$ funcionários, um é gerente, de modo que existem $X-1$ diaristas.",
+      "Cada diarista recebe $2\\cdot80=160$ reais por semana. O pagamento total é $Y=1000+160(X-1)$.",
+      "Expandindo: $Y=160X+840$. Alternativa D."
+    ],
+    "rubric": [
+      1,
+      1,
+      0
+    ],
+    "rationale": "A principal atenção está em retirar o gerente do número de diaristas antes de montar a função afim."
+  },
+  {
+    "index": 169,
+    "topics": [
+      "plana"
+    ],
+    "explanation": [
+      "Para um match mútuo, a distância deve ser menor ou igual aos dois raios. Os limites efetivos entre P e Q, R e S são, respectivamente, 3, 2 e 3 km.",
+      "No bar I, de coordenadas $(5,6)$, as distâncias a $Q=(3,7)$, $R=(6,7)$ e $S=(5,3)$ são $\\sqrt5$, $\\sqrt2$ e 3 km. Todas atendem aos limites.",
+      "Os bares II, III, IV e V estão a mais de 2 km de R: suas distâncias são $\\sqrt8$, $\\sqrt5$, $\\sqrt5$ e $\\sqrt{18}$. Portanto, somente o bar I atende aos três usuários. Alternativa A."
+    ],
+    "rubric": [
+      2,
+      2,
+      1
+    ],
+    "rationale": "Exige interpretar alcance mútuo, localizar pontos no plano e comparar distâncias euclidianas com três limites diferentes."
+  },
+  {
+    "index": 170,
+    "excluded": "Proporcionalidade aritmética e conversão de massa e volume para dosagem; sem modelagem algébrica central ou geometria de sólidos."
+  },
+  {
+    "index": 171,
+    "topics": [
+      "combinatoria"
+    ],
+    "explanation": [
+      "Escolha as 4 posições vermelhas dentre as 12: $\binom{12}{4}$. Restam 8 posições.",
+      "Escolha 3 das 8 para azul, depois 3 das 5 restantes para verde. As 2 últimas posições serão amarelas.",
+      "Pelo princípio multiplicativo, o total é $\binom{12}{4}\binom{8}{3}\binom{5}{3}\binom{2}{2}$, expressão da alternativa E."
+    ],
+    "rubric": [
+      1,
+      2,
+      1
+    ],
+    "rationale": "Conta escolhas sucessivas de posições para cores repetidas; exige reduzir o total disponível após cada escolha e multiplicar os casos."
+  },
+  {
+    "index": 172,
+    "topics": [
+      "pa"
+    ],
+    "explanation": [
+      "Em dezembro, a venda é a média: $(700+2500+2500+2800+2700)/5=2240$ unidades.",
+      "A redução de novembro para dezembro é $2700-2240=460$. A sequência seguinte tem razão $-460$: janeiro 1780, fevereiro 1320, março 860 e abril 400.",
+      "Julho teve 700 unidades. Março ainda fica acima desse valor e abril é o primeiro mês abaixo dele. Alternativa D."
+    ],
+    "rubric": [
+      1,
+      2,
+      1
+    ],
+    "rationale": "Combina a média inicial com a identificação da razão de uma PA decrescente e a comparação estrita com o valor de referência."
+  },
+  {
+    "index": 173,
+    "topics": [
+      "probabilidade"
+    ],
+    "explanation": [
+      "Imagine 10000 declarações. Das 2000 inconsistentes, 25% são fraudulentas: 500 declarações.",
+      "Das 8000 sem inconsistências, 6,25% são fraudulentas: outras 500. Portanto, há 1000 fraudes ao todo.",
+      "Sabendo que a declaração é fraudulenta, a chance de ela estar no grupo inconsistente é $500/1000=0{,}5$. Alternativa E."
+    ],
+    "rubric": [
+      2,
+      2,
+      1
+    ],
+    "rationale": "É uma probabilidade condicional com duas origens possíveis para a fraude; exige construir o denominador correto antes de dividir."
+  },
+  {
+    "index": 174,
+    "excluded": "Comparação de razões populacionais a partir de gráficos; leitura de dados e aritmética, sem conteúdo central dos nove temas."
+  },
+  {
+    "index": 175,
+    "topics": [
+      "espacial",
+      "algebra"
+    ],
+    "explanation": [
+      "O volume inicial do reservatório central é $\\pi\\cdot2^2\\cdot3{,}30=13{,}2\\pi$ m³.",
+      "Cada cano tem raio 0,05 m e volume $\\pi(0{,}05)^2\\cdot20=0{,}05\\pi$ m³. Os quatro canos retêm $0{,}2\\pi$ m³, restando $13\\pi$ m³ nos reservatórios.",
+      "Se a altura comum é $h$, o volume nos cinco reservatórios é $\\pi\\,[2^2+4(1{,}5)^2]h=13\\pi h$. Igualando a $13\\pi$, obtemos $h=1$ m. Alternativa D."
+    ],
+    "rubric": [
+      2,
+      2,
+      1
+    ],
+    "rationale": "Combina conservação de volume, cinco reservatórios e quatro canos; é necessário considerar a água que permanece nos canos."
+  },
+  {
+    "index": 176,
+    "topics": [
+      "algebra"
+    ],
+    "explanation": [
+      "O orçamento original é $10000+40000+2500\\cdot40=150000$ reais. Reduzir o total em 10% significa chegar a 135000 reais.",
+      "O projeto passa a custar 5000 reais. A construção passa a $2500\\cdot1{,}25\\cdot40=125000$ reais. Assim, os custos fixos precisam ficar em $135000-5000-125000=5000$ reais.",
+      "A redução dos custos fixos é $40000-5000=35000$ reais, ou $35000/40000=87{,}5\\%$. Alternativa D."
+    ],
+    "rubric": [
+      2,
+      2,
+      1
+    ],
+    "rationale": "Modela um orçamento com três componentes que sofrem alterações distintas e calcula um desconto relativo à parcela correta."
+  },
+  {
+    "index": 177,
+    "topics": [
+      "trigonometria",
+      "funcoes"
+    ],
+    "explanation": [
+      "Faça $h(t)=6$ em $h(t)=4+4\\operatorname{sen}(\beta t/2-\\pi/2)$. Isso dá $\\operatorname{sen}(\beta t/2-\\pi/2)=1/2$.",
+      "Partindo da fase $-\\pi/2$, os primeiros três valores de fase com seno 1/2 são $\\pi/6$, $5\\pi/6$ e $13\\pi/6$. Os instantes correspondentes são $4\\pi/(3\beta)$, $8\\pi/(3\beta)$ e $16\\pi/(3\beta)$.",
+      "O terceiro instante deve ser menor que 4. Usando $\\pi\u0007pprox3$, temos $16/\beta<4$, isto é, $\beta>4$. O menor inteiro possível é 5. Alternativa D."
+    ],
+    "rubric": [
+      2,
+      2,
+      2
+    ],
+    "rationale": "Exige resolver uma equação trigonométrica, ordenar os primeiros três instantes positivos e impor uma desigualdade estrita ao parâmetro inteiro."
+  },
+  {
+    "index": 178,
+    "excluded": "Leitura de gráfico radar e soma de quantidades vendidas; tema de tratamento de dados, sem conteúdo central dos nove temas."
+  },
+  {
+    "index": 179,
+    "topics": [
+      "funcoes"
+    ],
+    "explanation": [
+      "Como cada cômodo é visitado durante um minuto, a potência da lâmpada é o aumento do consumo acumulado entre dois instantes consecutivos.",
+      "As diferenças no gráfico são: $20-0=20$, $35-20=15$, $40-35=5$, $55-40=15$, $75-55=20$, $85-75=10$, $105-85=20$ e $120-105=15$.",
+      "As potências 20, 15, 5, 15, 20, 10, 20 e 15 W correspondem aos cômodos $1\to4\to5\to4\to1\to6\to1\to4$. Alternativa A."
+    ],
+    "rubric": [
+      1,
+      2,
+      1
+    ],
+    "rationale": "Exige interpretar incrementos de uma função acumulada e relacioná-los a taxas de consumo em intervalos iguais."
+  },
+  {
+    "index": 180,
+    "excluded": "Conversão de moedas e comparação de produtos numéricos; aritmética financeira sem modelagem central dos nove temas."
+  }
+]

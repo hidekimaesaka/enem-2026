@@ -1,0 +1,426 @@
+{
+  "totalUniqueQuestions": 147,
+  "byTopic": {
+    "espacial": 33,
+    "algebra": 48,
+    "funcoes": 38,
+    "plana": 35,
+    "pa": 10,
+    "pg": 6,
+    "combinatoria": 10,
+    "probabilidade": 12,
+    "trigonometria": 6
+  },
+  "byYear": {
+    "2019": {
+      "included": 39,
+      "unique": 31,
+      "topics": {
+        "espacial": 5,
+        "algebra": 13,
+        "funcoes": 7,
+        "plana": 6,
+        "pa": 2,
+        "pg": 1,
+        "combinatoria": 2,
+        "probabilidade": 2,
+        "trigonometria": 1
+      }
+    },
+    "2020": {
+      "included": 39,
+      "unique": 28,
+      "topics": {
+        "plana": 9,
+        "espacial": 10,
+        "combinatoria": 3,
+        "probabilidade": 3,
+        "pa": 1,
+        "funcoes": 6,
+        "algebra": 4,
+        "pg": 2,
+        "trigonometria": 1
+      }
+    },
+    "2021": {
+      "included": 32,
+      "unique": 27,
+      "topics": {
+        "algebra": 12,
+        "espacial": 6,
+        "funcoes": 6,
+        "probabilidade": 1,
+        "plana": 5,
+        "trigonometria": 1,
+        "combinatoria": 1
+      }
+    },
+    "2022": {
+      "included": 38,
+      "unique": 30,
+      "topics": {
+        "funcoes": 5,
+        "algebra": 10,
+        "probabilidade": 2,
+        "combinatoria": 3,
+        "plana": 6,
+        "pa": 4,
+        "espacial": 8
+      }
+    },
+    "2023": {
+      "included": 50,
+      "unique": 31,
+      "topics": {
+        "espacial": 4,
+        "plana": 9,
+        "probabilidade": 4,
+        "algebra": 9,
+        "pa": 3,
+        "funcoes": 14,
+        "trigonometria": 3,
+        "pg": 3,
+        "combinatoria": 1
+      }
+    }
+  },
+  "answerKeyCorrections": [
+    {
+      "year": 2021,
+      "number": 145,
+      "api": "A",
+      "official": "C"
+    },
+    {
+      "year": 2021,
+      "number": 152,
+      "api": "D",
+      "official": "E"
+    }
+  ],
+  "excluded": {
+    "2019": [
+      {
+        "number": 140,
+        "reason": "Notação científica e representação numérica; não aborda diretamente os nove temas selecionados."
+      },
+      {
+        "number": 146,
+        "reason": "Leitura de gráfico meteorológico e verificação de condições lógicas; sem conteúdo central dos nove temas."
+      },
+      {
+        "number": 148,
+        "reason": "Conversão entre capacidade e volume, porcentagem e arredondamento de uma divisão; sem cálculo geométrico de sólidos."
+      },
+      {
+        "number": 151,
+        "reason": "Divisão proporcional de investimentos e porcentagens, resolvida por operações aritméticas; fora dos nove recortes temáticos."
+      },
+      {
+        "number": 153,
+        "reason": "Porcentagens sucessivas com taxas diferentes; não constitui PG nem exige modelagem algébrica ou funcional."
+      },
+      {
+        "number": 155,
+        "reason": "Sequência periódica com repetição de bloco; não é PA ou PG e não tem modelagem algébrica central."
+      },
+      {
+        "number": 160,
+        "reason": "Média aritmética e efeito da substituição de uma observação; tema de estatística."
+      },
+      {
+        "number": 161,
+        "reason": "Média ponderada em tabela de frequências; tema de estatística."
+      },
+      {
+        "number": 162,
+        "reason": "Conversão de unidades de comprimento; não envolve conceito geométrico dos temas selecionados."
+      },
+      {
+        "number": 167,
+        "reason": "Interpretação de mediana, média e moda para dividir uma amostra; tema de estatística."
+      },
+      {
+        "number": 170,
+        "reason": "Proporcionalidade aritmética e conversão de massa e volume para dosagem; sem modelagem algébrica central ou geometria de sólidos."
+      },
+      {
+        "number": 174,
+        "reason": "Comparação de razões populacionais a partir de gráficos; leitura de dados e aritmética, sem conteúdo central dos nove temas."
+      },
+      {
+        "number": 178,
+        "reason": "Leitura de gráfico radar e soma de quantidades vendidas; tema de tratamento de dados, sem conteúdo central dos nove temas."
+      },
+      {
+        "number": 180,
+        "reason": "Conversão de moedas e comparação de produtos numéricos; aritmética financeira sem modelagem central dos nove temas."
+      }
+    ],
+    "2020": [
+      {
+        "number": 137,
+        "reason": "Leitura e simplificação de razão de assentos, fora dos nove temas."
+      },
+      {
+        "number": 139,
+        "reason": "Comparação de produtividade e leitura de gráficos."
+      },
+      {
+        "number": 144,
+        "reason": "Conversões de unidades e aritmética de vazão."
+      },
+      {
+        "number": 147,
+        "reason": "Conversão aritmética de consumo de combustível."
+      },
+      {
+        "number": 148,
+        "reason": "Leitura de gráfico estatístico e porcentagem."
+      },
+      {
+        "number": 153,
+        "reason": "Comparação aritmética de tempos de deslocamento."
+      },
+      {
+        "number": 154,
+        "reason": "Conversão de unidades para notação científica."
+      },
+      {
+        "number": 156,
+        "reason": "Leitura de gráficos e receita aritmética."
+      },
+      {
+        "number": 157,
+        "reason": "Questão anulada no gabarito oficial."
+      },
+      {
+        "number": 159,
+        "reason": "Comparação aritmética de preços e fretes."
+      },
+      {
+        "number": 160,
+        "reason": "Aritmética de consumo e distância."
+      },
+      {
+        "number": 164,
+        "reason": "Leitura de gráfico de níveis de ruído."
+      },
+      {
+        "number": 165,
+        "reason": "Média aritmética de estaturas."
+      },
+      {
+        "number": 167,
+        "reason": "Porcentagem aritmética de despesas."
+      },
+      {
+        "number": 170,
+        "reason": "Divisão proporcional aritmética."
+      },
+      {
+        "number": 179,
+        "reason": "Conversão de unidades e multiplicação."
+      },
+      {
+        "number": 180,
+        "reason": "Média ponderada estatística."
+      }
+    ],
+    "2021": [
+      {
+        "number": 138,
+        "reason": "Questão anulada no gabarito oficial do Inep."
+      },
+      {
+        "number": 139,
+        "reason": "Estatística, leitura de dados ou cálculo percentual sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 140,
+        "reason": "Estatística, leitura de dados ou cálculo percentual sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 143,
+        "reason": "Estatística, leitura de dados ou cálculo percentual sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 144,
+        "reason": "Estatística, leitura de dados ou cálculo percentual sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 147,
+        "reason": "Estatística, leitura de dados ou cálculo percentual sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 148,
+        "reason": "Estatística, leitura de dados ou cálculo percentual sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 149,
+        "reason": "Estatística, leitura de dados ou cálculo percentual sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 150,
+        "reason": "Estatística, leitura de dados ou cálculo percentual sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 151,
+        "reason": "Estatística, leitura de dados ou cálculo percentual sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 154,
+        "reason": "Estatística, leitura de dados ou cálculo percentual sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 158,
+        "reason": "Aritmética, conversão de unidades ou sistemas de numeração, sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 163,
+        "reason": "Aritmética, conversão de unidades ou sistemas de numeração, sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 165,
+        "reason": "Aritmética, conversão de unidades ou sistemas de numeração, sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 174,
+        "reason": "Aritmética, conversão de unidades ou sistemas de numeração, sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 176,
+        "reason": "Aritmética, conversão de unidades ou sistemas de numeração, sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 177,
+        "reason": "Aritmética, conversão de unidades ou sistemas de numeração, sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 178,
+        "reason": "Aritmética, conversão de unidades ou sistemas de numeração, sem foco nos nove temas selecionados."
+      }
+    ],
+    "2022": [
+      {
+        "number": 138,
+        "reason": "Estatística e leitura de tabelas ou gráficos sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 145,
+        "reason": "Razões, porcentagens ou aritmética direta, sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 147,
+        "reason": "Razões, porcentagens ou aritmética direta, sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 149,
+        "reason": "Estatística e leitura de tabelas ou gráficos sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 154,
+        "reason": "Razões, porcentagens ou aritmética direta, sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 157,
+        "reason": "Questão anulada no gabarito oficial do Inep; as alternativas não correspondem à parcela fixa informada."
+      },
+      {
+        "number": 159,
+        "reason": "Sequência periódica por repetição de ciclo; não é progressão aritmética nem geométrica e não se enquadra nos temas."
+      },
+      {
+        "number": 164,
+        "reason": "Razões, porcentagens ou aritmética direta, sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 165,
+        "reason": "Razões, porcentagens ou aritmética direta, sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 167,
+        "reason": "Razões, porcentagens ou aritmética direta, sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 170,
+        "reason": "Estatística e leitura de tabelas ou gráficos sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 171,
+        "reason": "Estatística e leitura de tabelas ou gráficos sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 173,
+        "reason": "Estatística e leitura de tabelas ou gráficos sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 175,
+        "reason": "Razões, porcentagens ou aritmética direta, sem foco nos nove temas selecionados."
+      },
+      {
+        "number": 177,
+        "reason": "Razões, porcentagens ou aritmética direta, sem foco nos nove temas selecionados."
+      }
+    ],
+    "2023": [
+      {
+        "number": 137,
+        "reason": "Média ponderada; estatística."
+      },
+      {
+        "number": 140,
+        "reason": "Média, mediana e moda; estatística."
+      },
+      {
+        "number": 143,
+        "reason": "Porcentagem e aritmética de vagas, sem modelo algébrico necessário."
+      },
+      {
+        "number": 147,
+        "reason": "Proporcionalidade e aritmética de consumo."
+      },
+      {
+        "number": 153,
+        "reason": "Comparação de produtos aritméticos e tempo de espera."
+      },
+      {
+        "number": 157,
+        "reason": "Médias e gráfico estatístico."
+      },
+      {
+        "number": 164,
+        "reason": "Questão anulada no gabarito oficial."
+      },
+      {
+        "number": 166,
+        "reason": "Tabela e somas de produtos; aritmética."
+      },
+      {
+        "number": 167,
+        "reason": "Proporcionalidade, embalagens e porcentagem."
+      },
+      {
+        "number": 171,
+        "reason": "Conversão aritmética entre calendários."
+      },
+      {
+        "number": 173,
+        "reason": "Análise de unidades de medida."
+      },
+      {
+        "number": 174,
+        "reason": "Orientação espacial e localização em mapa, fora do recorte de geometria métrica."
+      },
+      {
+        "number": 179,
+        "reason": "Sistema de numeração e contagem básica."
+      },
+      {
+        "number": 180,
+        "reason": "Médias aritméticas de precipitação."
+      }
+    ]
+  },
+  "earlierYearsNeeded": false
+}

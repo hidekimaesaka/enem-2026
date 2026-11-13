@@ -1,0 +1,592 @@
+[
+  {
+    "index": 136,
+    "topics": [
+      "espacial",
+      "plana"
+    ],
+    "rubric": [
+      2,
+      2,
+      2
+    ],
+    "rationale": "É preciso combinar semelhança, três volumes e conversão de volume em massa.",
+    "explanation": [
+      "O cone original tem raio 9 cm e altura 36 cm. Por semelhança, o cone removido, de raio 3 cm, tem altura 12 cm; o tronco tem altura 24 cm.",
+      "Com π = 3, o volume do cone original é 3 × 9² × 36 / 3 = 2 916 cm³. O cone menor ocupa 108 cm³ e a perfuração cilíndrica, 3 × 3² × 24 = 648 cm³.",
+      "Restam 2 916 − 108 − 648 = 2 160 cm³. A massa é 2 160 × 0,6 = 1 296 g. Alternativa B."
+    ]
+  },
+  {
+    "index": 137,
+    "excluded": "Média ponderada; estatística."
+  },
+  {
+    "index": 138,
+    "topics": [
+      "probabilidade",
+      "algebra"
+    ],
+    "rubric": [
+      1,
+      2,
+      1
+    ],
+    "rationale": "Combina probabilidade independente, reconstrução da urna e uma inequação.",
+    "explanation": [
+      "A urna B tem 4 / 0,25 = 16 bolinhas inicialmente. Acrescentando x brancas, a chance de duas pretas é 0,20 × 4/(16+x).",
+      "Exigimos 0,8/(16+x) ≤ 0,01. Portanto 16+x ≥ 80 e x ≥ 64.",
+      "Devem ser acrescentadas pelo menos 64 bolinhas brancas. Alternativa C."
+    ]
+  },
+  {
+    "index": 139,
+    "topics": [
+      "pa",
+      "funcoes"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Exige prolongar duas progressões e distinguir o mês da ultrapassagem do mês da interrupção.",
+    "explanation": [
+      "O produto I cresce 10 unidades por mês; o II diminui 20. Em julho, as vendas são 110 e 130; em agosto, 120 e 110.",
+      "A primeira ultrapassagem ocorre em agosto. A produção do II termina no mês seguinte: setembro. Alternativa D."
+    ]
+  },
+  {
+    "index": 140,
+    "excluded": "Média, mediana e moda; estatística."
+  },
+  {
+    "index": 141,
+    "topics": [
+      "probabilidade"
+    ],
+    "rubric": [
+      1,
+      0,
+      1
+    ],
+    "rationale": "É necessário contar cartões, em vez de contar estudantes, antes de formar a razão.",
+    "explanation": [
+      "Há 200 × 1 = 200 cartões do primeiro ano, 150 × 2 = 300 do segundo e 100 × 3 = 300 do terceiro.",
+      "A urna tem 800 cartões equiprováveis. A chance de sair terceiro ano é 300/800 = 3/8. Alternativa E."
+    ]
+  },
+  {
+    "index": 142,
+    "topics": [
+      "espacial"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Relaciona volume cilíndrico, conversão de unidades e consumo por pessoa e por dia.",
+    "explanation": [
+      "O volume restante é πr²h = 3 × 5² × 1,5 = 112,5 m³ = 112 500 litros.",
+      "Dividindo por 75 moradores e 10 dias, cada pessoa pode usar 150 litros por dia.",
+      "Como o consumo anterior era 200 litros, a economia mínima é 200 − 150 = 50 litros diários. Alternativa A."
+    ]
+  },
+  {
+    "index": 143,
+    "excluded": "Porcentagem e aritmética de vagas, sem modelo algébrico necessário."
+  },
+  {
+    "index": 144,
+    "topics": [
+      "espacial",
+      "funcoes"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Traduz a taxa de variação da altura em vazão usando a área da base.",
+    "explanation": [
+      "Entre 6 h e 8 h, a altura sobe 1,1 − 0,5 = 0,6 m em 2 horas: taxa de 0,3 m/h.",
+      "O volume do cilindro é área da base × altura. Assim a vazão é 3 × 0,3 = 0,9 m³/h. Alternativa C."
+    ]
+  },
+  {
+    "index": 145,
+    "topics": [
+      "plana"
+    ],
+    "rubric": [
+      1,
+      1,
+      0
+    ],
+    "rationale": "O desafio é reconhecer ângulos inscritos que enxergam a mesma corda.",
+    "explanation": [
+      "Ângulos inscritos que interceptam o mesmo arco AB têm a mesma medida. Os pontos devem pertencer ao mesmo arco da circunferência que passa por A, B e Q₁.",
+      "Na figura, Q₃ pertence a esse arco, enquanto os demais pontos indicados não pertencem. A bola vai para Q₃. Alternativa B."
+    ]
+  },
+  {
+    "index": 146,
+    "topics": [
+      "pa",
+      "algebra"
+    ],
+    "rubric": [
+      2,
+      2,
+      1
+    ],
+    "rationale": "Requer enumerar os vértices admissíveis e contabilizar sua participação dupla nas somas.",
+    "explanation": [
+      "Os vértices em PA de razão 2 só podem ser {1,3,5} ou {2,4,6}. A soma de todos os números é 21.",
+      "Ao somar os três lados, cada vértice é contado duas vezes e cada ponto intermediário uma vez. Logo 3S = 21 + soma dos vértices.",
+      "No primeiro caso, S = (21+9)/3 = 10: entre os pares 1–3, 3–5 e 5–1, entram 6, 2 e 4. No segundo, S = (21+12)/3 = 11: entre 2–4, 4–6 e 6–2, entram 5, 1 e 3.",
+      "Ambas as construções são possíveis: somas 10 e 11. Alternativa E."
+    ]
+  },
+  {
+    "index": 147,
+    "excluded": "Proporcionalidade e aritmética de consumo."
+  },
+  {
+    "index": 148,
+    "topics": [
+      "trigonometria",
+      "plana"
+    ],
+    "rubric": [
+      1,
+      1,
+      2
+    ],
+    "rationale": "Aplica seno em três triângulos e compara comprimentos com radicais.",
+    "explanation": [
+      "Para cada cabo, sen(α) = h/L, portanto L = h/sen(α).",
+      "As opções dão L₁ = 22 m, L₂ = 12√2 m e L₃ = 12√3 m.",
+      "Como 12√2 ≈ 16,97, 12√3 ≈ 20,78 e 22 é maior, escolhemos 12√2 m. Alternativa C."
+    ]
+  },
+  {
+    "index": 149,
+    "topics": [
+      "plana"
+    ],
+    "rubric": [
+      1,
+      0,
+      1
+    ],
+    "rationale": "Relaciona escala geométrica e conversão de quilômetros para centímetros.",
+    "explanation": [
+      "A altura máxima no desenho é um quadradinho, isto é, 1 cm, correspondente a 5 km reais.",
+      "Como 5 km = 500 000 cm, a escala é 1 : 500 000. Alternativa E."
+    ]
+  },
+  {
+    "index": 150,
+    "topics": [
+      "funcoes",
+      "algebra"
+    ],
+    "rubric": [
+      0,
+      0,
+      1
+    ],
+    "rationale": "Tradução direta de uma porcentagem em expressão algébrica.",
+    "explanation": [
+      "90% corresponde a 90/100 = 0,9.",
+      "Se q é a quantidade ingerida, a concentração descrita é C = 0,9q. Alternativa A."
+    ]
+  },
+  {
+    "index": 151,
+    "topics": [
+      "funcoes"
+    ],
+    "rubric": [
+      1,
+      1,
+      0
+    ],
+    "rationale": "Exige comparar as duas coordenadas de cada instante, sem confundir os eixos.",
+    "explanation": [
+      "O eixo horizontal representa A e o vertical representa B. A é maior que B nos pontos em que a coordenada horizontal supera a vertical.",
+      "Isso ocorre às 9 h, 12 h, 13 h e 14 h. Às 10 h e 11 h há igualdade; nos demais instantes B é maior.",
+      "São quatro instantes. Alternativa B."
+    ]
+  },
+  {
+    "index": 152,
+    "topics": [
+      "funcoes",
+      "algebra"
+    ],
+    "rubric": [
+      1,
+      1,
+      2
+    ],
+    "rationale": "Usa propriedades de logaritmos e notação científica para escolher um intervalo.",
+    "explanation": [
+      "A relação é N = 10 log₁₀(I/I₀), com I₀ = 10⁻¹² W/m² e I = 8 × 10⁻⁸ W/m². Logo I/I₀ = 8 × 10⁴.",
+      "Como log₁₀2 ≈ 0,3, log₁₀8 = 3 log₁₀2 ≈ 0,9. Assim N = 10(0,9+4) = 49 dB.",
+      "49 está entre 48 e 55: medida preventiva II. Alternativa B."
+    ]
+  },
+  {
+    "index": 153,
+    "excluded": "Comparação de produtos aritméticos e tempo de espera."
+  },
+  {
+    "index": 154,
+    "topics": [
+      "plana"
+    ],
+    "rubric": [
+      0,
+      1,
+      0
+    ],
+    "rationale": "Reconhecimento de uma região circular delimitada por dois raios e um arco.",
+    "explanation": [
+      "O vértice do telhado coincide com o centro do círculo. Seus dois lados delimitam dois raios da lua.",
+      "A parte escondida fica entre esses raios e o arco correspondente: é um setor circular. Alternativa B."
+    ]
+  },
+  {
+    "index": 155,
+    "topics": [
+      "plana"
+    ],
+    "rubric": [
+      1,
+      1,
+      0
+    ],
+    "rationale": "Requer considerar a largura da calçada nos dois lados de cada dimensão.",
+    "explanation": [
+      "A piscina quadrada tem lado √400 = 20 m. Com 5 m de calçada de cada lado, o quadrado externo tem lado 30 m.",
+      "A área da calçada é 30² − 20² = 900 − 400 = 500 m². Alternativa D."
+    ]
+  },
+  {
+    "index": 156,
+    "topics": [
+      "funcoes"
+    ],
+    "rubric": [
+      1,
+      0,
+      1
+    ],
+    "rationale": "Leitura dos intervalos em que a função assume valor zero.",
+    "explanation": [
+      "O sinal fica nulo de 10 a 12 minutos e de 16 a 20 minutos.",
+      "Somando os intervalos, (12−10)+(20−16) = 6 minutos. Alternativa A."
+    ]
+  },
+  {
+    "index": 157,
+    "excluded": "Médias e gráfico estatístico."
+  },
+  {
+    "index": 158,
+    "topics": [
+      "algebra",
+      "funcoes"
+    ],
+    "rubric": [
+      2,
+      2,
+      1
+    ],
+    "rationale": "Modela receita e dois tipos de despesa, com restrição inteira no número de ajudantes.",
+    "explanation": [
+      "Com n ≥ 1 ajudantes, a pesca é 300 + 100(n−1) = 200+100n kg e a receita é 1 000+500n reais.",
+      "O lucro desconta custo fixo, diárias e 4% da receita: L = 0,96(1 000+500n)−900−250n = 60+230n.",
+      "Para L ≥ 800, temos n ≥ 740/230 ≈ 3,22. O menor inteiro é 4, dentro do limite de cinco. Alternativa D."
+    ]
+  },
+  {
+    "index": 159,
+    "topics": [
+      "pg",
+      "funcoes"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Relaciona crescimento geométrico, população-alvo e duração de cada período.",
+    "explanation": [
+      "Cinco litros tratam 5 × 200 000 = 1 000 000 larvas.",
+      "Partindo de 100 e multiplicando por 10 a cada três dias, temos 100 × 10ⁿ = 1 000 000, de onde n = 4 períodos.",
+      "O tempo é 4 × 3 = 12 dias. Alternativa D."
+    ]
+  },
+  {
+    "index": 160,
+    "topics": [
+      "combinatoria",
+      "probabilidade"
+    ],
+    "rubric": [
+      2,
+      2,
+      1
+    ],
+    "rationale": "Combina contagem sem repetição, restrições por posição e comparação inversa de probabilidades.",
+    "explanation": [
+      "Há 10+26+26+6 = 68 caracteres. Para tipo I, N₁ = 68×67×66×65 = 19 545 240.",
+      "Tipo II: N₂ = 52×51×50×10×6 = 7 956 000. Tipo III: N₃ = 52×51×10×9×6×5 = 7 160 400.",
+      "Como p = 1/N e N₁ > N₂ > N₃, resulta p₁ < p₂ < p₃. Tipo I, alternativa A."
+    ]
+  },
+  {
+    "index": 161,
+    "topics": [
+      "algebra",
+      "pg"
+    ],
+    "rubric": [
+      2,
+      2,
+      2
+    ],
+    "rationale": "Exige valor presente de parcelas com juros compostos e solução de uma equação quadrática.",
+    "explanation": [
+      "O preço financiado é 1 500 × 1,2 = 1 800 reais, em três parcelas de 600. A primeira é paga no ato; o saldo efetivamente financiado é 900.",
+      "Se x = 1+i, o valor presente das outras parcelas é 900 = 600/x + 600/x². Multiplicando, obtemos 3x²−2x−2 = 0.",
+      "A raiz positiva é x = (2+√28)/6 ≈ 7,29/6 = 1,215. Logo i = 0,215 = 21,5% ao mês. Alternativa D."
+    ]
+  },
+  {
+    "index": 162,
+    "topics": [
+      "funcoes",
+      "algebra"
+    ],
+    "rubric": [
+      0,
+      1,
+      0
+    ],
+    "rationale": "Identificação direta da parcela fixa e da taxa por unidade.",
+    "explanation": [
+      "O custo variável é 250 reais por metro cúbico: 250x.",
+      "Somando a taxa fixa de 500 reais, y = 250x+500. Alternativa D."
+    ]
+  },
+  {
+    "index": 163,
+    "topics": [
+      "funcoes",
+      "plana"
+    ],
+    "rubric": [
+      2,
+      1,
+      1
+    ],
+    "rationale": "Relaciona um gráfico de distância à base com trechos retilíneos e circulares.",
+    "explanation": [
+      "De 0 a 10 min, a distância à base cresce linearmente: o vigilante se afasta por um segmento radial.",
+      "Entre 10 e 20 min, a distância fica em 3 km, mas ele continua em movimento: percorre um arco de circunferência centrado na base.",
+      "De 20 a 30 min, retorna em linha reta à base. A representação com dois raios e o arco entre eles é a alternativa A."
+    ]
+  },
+  {
+    "index": 164,
+    "excluded": "Questão anulada no gabarito oficial."
+  },
+  {
+    "index": 165,
+    "topics": [
+      "espacial",
+      "plana"
+    ],
+    "rubric": [
+      1,
+      2,
+      1
+    ],
+    "rationale": "Decompõe a superfície em pisos, espelhos e duas laterais, evitando contar a base.",
+    "explanation": [
+      "Os três pisos somam 3 × 1 × 0,25 = 0,75 m²; os três espelhos somam 3 × 1 × 0,20 = 0,60 m².",
+      "Cada lateral é formada por três faixas de largura 0,25 e alturas 0,20, 0,40 e 0,60: área 0,25 × 1,20 = 0,30 m².",
+      "A área total revestida é 0,75+0,60+2×0,30 = 1,95 m². Alternativa E."
+    ]
+  },
+  {
+    "index": 166,
+    "excluded": "Tabela e somas de produtos; aritmética."
+  },
+  {
+    "index": 167,
+    "excluded": "Proporcionalidade, embalagens e porcentagem."
+  },
+  {
+    "index": 168,
+    "topics": [
+      "probabilidade"
+    ],
+    "rubric": [
+      2,
+      1,
+      1
+    ],
+    "rationale": "A segunda urna depende do primeiro sorteio; as inscrições não são equiprováveis.",
+    "explanation": [
+      "Para sair 50, a unidade deve ser 0 (chance 1/10). Nesse caso, as dezenas permitidas são 1,2,3,4,5: chance 1/5 de sair 5. Portanto P(50)=1/50.",
+      "Para sair 02, a unidade deve ser 2 (1/10). As dezenas permitidas são 0,1,2,3,4,5: chance 1/6 de sair 0. Portanto P(02)=1/60.",
+      "As duas probabilidades estão na alternativa A."
+    ]
+  },
+  {
+    "index": 169,
+    "topics": [
+      "pg",
+      "funcoes"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Reconhece a razão constante e calcula o sexto fator de uma progressão geométrica.",
+    "explanation": [
+      "A cada metro, a intensidade é multiplicada por 2/3, como mostram 2/3, 4/9 e 8/27.",
+      "A 6 m, L = L₀(2/3)⁶ = (64/729)L₀. Alternativa D."
+    ]
+  },
+  {
+    "index": 170,
+    "topics": [
+      "funcoes",
+      "algebra"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Determina o mínimo de uma quadrática dentro do domínio e interpreta uma classificação.",
+    "explanation": [
+      "A função V(x)=x²/4−10x+105 tem concavidade para cima. Seu mínimo ocorre em x = −b/(2a) = 20, dentro do intervalo de 1 a 30.",
+      "V(20) = 100−200+105 = 5 milhares de reais.",
+      "Como 4 ≤ 5 < 10, o desempenho é ruim. Alternativa D."
+    ]
+  },
+  {
+    "index": 171,
+    "excluded": "Conversão aritmética entre calendários."
+  },
+  {
+    "index": 172,
+    "topics": [
+      "plana",
+      "trigonometria"
+    ],
+    "rubric": [
+      2,
+      1,
+      1
+    ],
+    "rationale": "Relaciona áreas circulares aos quadrados dos diâmetros e ao sinal do cosseno.",
+    "explanation": [
+      "A área de um círculo de diâmetro d é πd²/4. Portanto a pizza do professor é maior que a soma das outras quando a² > b²+c².",
+      "Pela lei dos cossenos, a² = b²+c²−2bc cos(α). Para superar a soma, cos(α) deve ser negativo.",
+      "Em um triângulo isso corresponde a 90° < α < 180°. Alternativa C."
+    ]
+  },
+  {
+    "index": 173,
+    "excluded": "Análise de unidades de medida."
+  },
+  {
+    "index": 174,
+    "excluded": "Orientação espacial e localização em mapa, fora do recorte de geometria métrica."
+  },
+  {
+    "index": 175,
+    "topics": [
+      "algebra"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Traduz duas relações de preços em um sistema linear.",
+    "explanation": [
+      "Se a e v são os preços unitários dos tíquetes, 18a+9v=32,40, ou 2a+v=3,60.",
+      "A outra condição é a−v=v+0,05, então a=2v+0,05. Substituindo: 5v+0,10=3,60; v=0,70.",
+      "A cartela vermelha com nove tíquetes custa 9×0,70 = R$ 6,30. Alternativa B."
+    ]
+  },
+  {
+    "index": 176,
+    "topics": [
+      "pa"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Reconhece uma PA nas diferenças dos números figurados, não nos próprios termos.",
+    "explanation": [
+      "Os números pentagonais são 1, 5, 12, 22, 35 e 51. As diferenças são 4, 7, 10, 13 e 16, uma PA de razão 3.",
+      "As próximas diferenças são 19 e 22: o sétimo número é 70 e o oitavo é 92. Alternativa E."
+    ]
+  },
+  {
+    "index": 177,
+    "topics": [
+      "trigonometria",
+      "funcoes"
+    ],
+    "rubric": [
+      1,
+      1,
+      0
+    ],
+    "rationale": "Reconhece periodicidade e a condição inicial de máximo na função da altura.",
+    "explanation": [
+      "Com velocidade angular constante, a altura varia como h(t)=h_c+R cos(ωt), pois a pessoa começa no ponto mais alto.",
+      "O gráfico deve começar em um máximo positivo, diminuir suavemente e repetir-se periodicamente, sem altura negativa. A alternativa A apresenta esse comportamento."
+    ]
+  },
+  {
+    "index": 178,
+    "topics": [
+      "funcoes"
+    ],
+    "rubric": [
+      1,
+      1,
+      0
+    ],
+    "rationale": "Distingue volume acumulado de vazão e identifica os três intervalos da função.",
+    "explanation": [
+      "O volume acumulado cresce linearmente de 0 a 3 s, porque a vazão é constante.",
+      "De 3 a 8 s a torneira está fechada: o volume fica constante, não volta a zero. De 8 a 11 s volta a crescer com a mesma inclinação.",
+      "O gráfico com esses três trechos contínuos é o da alternativa B."
+    ]
+  },
+  {
+    "index": 179,
+    "excluded": "Sistema de numeração e contagem básica."
+  },
+  {
+    "index": 180,
+    "excluded": "Médias aritméticas de precipitação."
+  }
+]

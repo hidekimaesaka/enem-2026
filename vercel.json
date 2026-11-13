@@ -1,0 +1,1 @@
+{"framework":"vite","buildCommand":"npm run build","outputDirectory":"dist","rewrites":[{"source":"/((?!assets/|questions/|questions.json).*)","destination":"/index.html"}]}
