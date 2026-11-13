@@ -1,0 +1,6 @@
+{
+  "examUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD7.pdf",
+  "answerUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_GB_impresso_D2_CD7.pdf",
+  "booklet": "Caderno 7 — Azul — 2º dia — aplicação regular impressa",
+  "verificationNotes": "45 itens classificados, gabaritos confrontados com PDF oficial. Questão 157 anulada; 140 alternativa C transcrita incorretamente pela API. Itens 144, 168 e 179 ausentes na API, somente 168 incluído; reconstruir do caderno oficial."
+}

@@ -1,0 +1,6 @@
+{
+  "examUrl": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/caderno_de_questoes_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+  "answerUrl": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+  "booklet": "Caderno 7 — Azul — 2º dia — aplicação regular",
+  "verificationNotes": "Questões 136 a 180 classificadas individualmente; textos comparados ao PDF oficial e diagramas e fórmulas conferidos em páginas renderizadas. Gabaritos confrontados com o documento oficial. Recuperada classificação de disciplina da 141 e corrigidos erros de transcrição em 137, 139, 141, 163, 165, 166, 169, 171 e 177. Itens excluídos têm justificativas temáticas, sem excluir por falha da API."
+}

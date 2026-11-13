@@ -1,0 +1,584 @@
+[
+  {
+    "index": 136,
+    "topics": [
+      "funcoes",
+      "algebra"
+    ],
+    "rubric": [
+      1,
+      1,
+      0
+    ],
+    "rationale": "É preciso resolver a condição de velocidade nula e contar interseções, incluindo tangências.",
+    "explanation": [
+      "A velocidade se anula quando $T^2-4=0$, isto é, quando $T=2$ ou $T=-2$.",
+      "O gráfico atinge $T=2$ duas vezes e $T=-2$ três vezes. Os pontos em que apenas toca a linha também contam.",
+      "No total são cinco instantes, alternativa E."
+    ]
+  },
+  {
+    "index": 137,
+    "topics": [
+      "probabilidade",
+      "combinatoria"
+    ],
+    "rubric": [
+      2,
+      2,
+      1
+    ],
+    "rationale": "Usa um modelo equivalente de seis partidas e conta diferentes quantidades de vitórias por combinações.",
+    "explanation": [
+      "Fixe como time A o vencedor da primeira partida. Para vencer a série, ele precisa de pelo menos três vitórias entre as seis partidas seguintes.",
+      "Podemos imaginar todas as seis partidas sendo jogadas mesmo quando o campeão já está definido: isso não altera quem chega primeiro a quatro vitórias.",
+      "Há $2^6=64$ sequências equiprováveis. São favoráveis $\\binom63+\\binom64+\\binom65+\\binom66=20+15+6+1=42$.",
+      "A probabilidade é $42/64$, alternativa C."
+    ]
+  },
+  {
+    "index": 138,
+    "excluded": "Estatística e leitura de tabelas ou gráficos sem foco nos nove temas selecionados."
+  },
+  {
+    "index": 149,
+    "excluded": "Estatística e leitura de tabelas ou gráficos sem foco nos nove temas selecionados."
+  },
+  {
+    "index": 170,
+    "excluded": "Estatística e leitura de tabelas ou gráficos sem foco nos nove temas selecionados."
+  },
+  {
+    "index": 171,
+    "excluded": "Estatística e leitura de tabelas ou gráficos sem foco nos nove temas selecionados."
+  },
+  {
+    "index": 173,
+    "excluded": "Estatística e leitura de tabelas ou gráficos sem foco nos nove temas selecionados."
+  },
+  {
+    "index": 139,
+    "topics": [
+      "plana"
+    ],
+    "rubric": [
+      1,
+      1,
+      0
+    ],
+    "rationale": "Converte a escala de uma planta e considera folgas em uma e em duas direções.",
+    "explanation": [
+      "Na escala $1:50$, o espaço real tem altura $3{,}8\\times50=190$ cm e largura $1{,}6\\times50=80$ cm.",
+      "Desconte 10 cm no alto e 10 cm de cada lado: altura máxima 180 cm e largura máxima 60 cm.",
+      "Em metros: 1,80 e 0,60. Alternativa A."
+    ]
+  },
+  {
+    "index": 140,
+    "topics": [
+      "pa"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Organiza as etapas do torneio e distingue dias de descanso do intervalo entre jogos.",
+    "explanation": [
+      "Cada finalista joga três partidas na fase de grupos e mais quatro no mata-mata: sete partidas.",
+      "Entre jogos há três dias inteiros de descanso. Assim, os dias de jogo formam a PA $1,5,9,13,17,21,25$, de razão 4.",
+      "É possível jogar as partidas de cada rodada no mesmo dia. Logo, o torneio precisa de no mínimo 25 dias, alternativa B."
+    ]
+  },
+  {
+    "index": 141,
+    "topics": [
+      "probabilidade"
+    ],
+    "rubric": [
+      2,
+      2,
+      2
+    ],
+    "rationale": "Combina vitória imediata com dois tipos de pares favoráveis em sorteio sem reposição, evitando dupla contagem.",
+    "explanation": [
+      "Restam 46 números. Pedro ganha na quinta rodada se sair 12: probabilidade $1/46$.",
+      "Se o primeiro número não for 12, ele pode ganhar na sexta com 12: são 45 pares ordenados. Também pode completar a última coluna com 05 e 45 ou a diagonal com 11 e 19; são mais quatro pares ordenados.",
+      "Esses eventos não incluem a vitória imediata. A probabilidade total é $\\frac1{46}+\\frac{45+4}{46\\times45}=\\frac1{46}+\\frac{49}{46\\times45}$. Alternativa E."
+    ]
+  },
+  {
+    "index": 142,
+    "topics": [
+      "combinatoria",
+      "algebra"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Conta subconjuntos de opcionais e resolve uma desigualdade inteira para o número de cores.",
+    "explanation": [
+      "Cada um dos três opcionais pode estar presente ou ausente, gerando $2^3=8$ combinações.",
+      "Para $c$ cores, há $7\\times2\\times8\\times c=112c$ configurações.",
+      "É necessário $112c>1000$. Como $112\\times8=896$ e $112\\times9=1008$, o mínimo é 9 cores. Alternativa B."
+    ]
+  },
+  {
+    "index": 143,
+    "topics": [
+      "espacial"
+    ],
+    "rubric": [
+      2,
+      1,
+      0
+    ],
+    "rationale": "A solução depende de acompanhar vértices ao dobrar uma planificação de cubo.",
+    "explanation": [
+      "Os três pequenos quadrados cinza devem se encontrar em um único vértice do cubo montado.",
+      "Na planificação em escada, acompanhe o vértice compartilhado pelos dois quadrados superiores ao dobrar sucessivamente as faces.",
+      "O terceiro quadrado deve ocupar o canto inferior direito da última face da escada. Essa disposição está em D; nas demais, o terceiro quadrado fica em outro vértice."
+    ]
+  },
+  {
+    "index": 144,
+    "topics": [
+      "algebra"
+    ],
+    "rubric": [
+      0,
+      1,
+      0
+    ],
+    "rationale": "Avalia uma expressão algébrica dada e usa o resto de uma divisão pequena.",
+    "explanation": [
+      "Os dígitos são $N_1=0$, $N_2=1$, $N_3=0$, $N_4=0$.",
+      "Logo, $S=5N_1+4N_2+3N_3+2N_4=4$. Ao dividir 4 por 11, o resto é $R=4$.",
+      "Assim, $N_5=11-R=7$, alternativa C."
+    ]
+  },
+  {
+    "index": 145,
+    "excluded": "Razões, porcentagens ou aritmética direta, sem foco nos nove temas selecionados."
+  },
+  {
+    "index": 147,
+    "excluded": "Razões, porcentagens ou aritmética direta, sem foco nos nove temas selecionados."
+  },
+  {
+    "index": 154,
+    "excluded": "Razões, porcentagens ou aritmética direta, sem foco nos nove temas selecionados."
+  },
+  {
+    "index": 164,
+    "excluded": "Razões, porcentagens ou aritmética direta, sem foco nos nove temas selecionados."
+  },
+  {
+    "index": 165,
+    "excluded": "Razões, porcentagens ou aritmética direta, sem foco nos nove temas selecionados."
+  },
+  {
+    "index": 167,
+    "excluded": "Razões, porcentagens ou aritmética direta, sem foco nos nove temas selecionados."
+  },
+  {
+    "index": 175,
+    "excluded": "Razões, porcentagens ou aritmética direta, sem foco nos nove temas selecionados."
+  },
+  {
+    "index": 177,
+    "excluded": "Razões, porcentagens ou aritmética direta, sem foco nos nove temas selecionados."
+  },
+  {
+    "index": 146,
+    "topics": [
+      "algebra"
+    ],
+    "rubric": [
+      2,
+      2,
+      1
+    ],
+    "rationale": "Resolve um sistema linear e uma restrição inteira para maximizar o total de voltas.",
+    "explanation": [
+      "Sejam $M$ e $m$ os comprimentos dos circuitos. Temos $3M+2m=1800$ e $2M+m=1100$.",
+      "Dobrando a segunda e subtraindo a primeira: $M=400$ m. Então $m=300$ m.",
+      "No segundo dia, $400x+300y=5000$, ou $4x+3y=50$. Para maximizar $x+y$, priorize voltas no circuito menor.",
+      "Módulo 3, $x\\equiv2$. O menor valor não negativo é $x=2$, que dá $y=14$. São 16 voltas, alternativa E."
+    ]
+  },
+  {
+    "index": 148,
+    "topics": [
+      "algebra"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Exige aplicar fatores de escala a duas grandezas com expoentes diferentes.",
+    "explanation": [
+      "A lei é $L=cR^2T^4$. Para comparar as estrelas, a constante $c$ se cancela.",
+      "A razão é $L_E/L_F=(R_E/R_F)^2(T_E/T_F)^4=(1/2)^2\\times2^4=4$.",
+      "Portanto, $L_E=4L_F$, alternativa D."
+    ]
+  },
+  {
+    "index": 150,
+    "topics": [
+      "funcoes",
+      "algebra"
+    ],
+    "rubric": [
+      1,
+      2,
+      1
+    ],
+    "rationale": "Calcula o vértice de uma parábola e ajusta a altura ao referencial do piso.",
+    "explanation": [
+      "A função é $y=-x^2/6-7x/3+12$. Como o coeficiente de $x^2$ é negativo, o vértice dá a altura máxima.",
+      "A abscissa do vértice é $x_v=-b/(2a)=-7$. Substituindo, $y_v=-49/6+49/3+12=121/6$ m.",
+      "O eixo horizontal está 1,5 m acima do piso. A altura máxima real é $121/6+1{,}5=65/3\\approx21{,}67$ m.",
+      "A bola atinge tetos de 17, 18, 19 e 21 m, mas não o de 40 m. Alternativa D."
+    ]
+  },
+  {
+    "index": 151,
+    "topics": [
+      "algebra"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Monta uma equação para o tempo usando uma taxa e um acréscimo percentual, depois converte a unidade.",
+    "explanation": [
+      "Para $t$ horas, a perda de massa é $1{,}5t$ kg. A recomendação é repor $1{,}4\\times1{,}5t=2{,}1t$ litros.",
+      "Como foram ingeridos 1,7 L, $t=1{,}7/2{,}1=17/21$ hora, ou aproximadamente 48,57 minutos.",
+      "O tempo está entre 45 e 55 minutos, alternativa C."
+    ]
+  },
+  {
+    "index": 152,
+    "topics": [
+      "pa"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Modela posições de fileiras em uma progressão de razão 1 e distingue intervalos de número de termos.",
+    "explanation": [
+      "A tela tem largura 12 m. A primeira fileira está a $0{,}6\\times12=7{,}2$ m e o limite final é $2{,}9\\times12=34{,}8$ m.",
+      "As posições são $7{,}2;8{,}2;9{,}2;\\ldots$, uma PA de razão 1 m. Para $n$ fileiras: $7{,}2+(n-1)\\leq34{,}8$.",
+      "Logo $n\\leq28{,}6$. O maior inteiro é 28; a 28ª fica a 34,2 m e a 29ª a 35,2 m. Alternativa C."
+    ]
+  },
+  {
+    "index": 153,
+    "topics": [
+      "espacial",
+      "algebra"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Relaciona a redução percentual do volume ao quadrado do raio com altura constante.",
+    "explanation": [
+      "O cone original tem raio 4 cm. Como a altura é mantida, o volume é proporcional a $r^2$.",
+      "O novo volume vale 81% do original, logo $r^2/4^2=0{,}81$.",
+      "Assim, $r=4\\sqrt{0{,}81}=4\\times0{,}9=3{,}6$ cm, alternativa C."
+    ]
+  },
+  {
+    "index": 155,
+    "topics": [
+      "combinatoria"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Restringe os apartamentos elegíveis antes de contar pares sem ordem em cada andar.",
+    "explanation": [
+      "Em cada andar, os apartamentos de finais 1 a 6 possuem pelo menos um quarto com sol pela manhã. Há seis elegíveis.",
+      "Escolher dois desses seis, sem considerar a ordem, dá $\\binom62=6!/(4!2!)=15$ pares.",
+      "Como ambos devem estar no mesmo andar, escolhemos também um dos nove andares: $9\\binom62=135$, expressão da alternativa B."
+    ]
+  },
+  {
+    "index": 156,
+    "topics": [
+      "plana"
+    ],
+    "rubric": [
+      2,
+      1,
+      0
+    ],
+    "rationale": "Exige aplicar duas reflexões ao recorte e preservar a posição do centro dos arcos.",
+    "explanation": [
+      "O papel está dobrado pelas duas diagonais. Desfazer uma dobra reflete o arco em relação à linha da dobra.",
+      "Desfazer a segunda produz quatro cópias simétricas do recorte, com centros afastados do centro do quadrado porque $OR=OM/4$.",
+      "O contorno retirado tem quatro arcos arredondados, e não uma única circunferência de centro O. A figura com essa simetria e esse contorno é C."
+    ]
+  },
+  {
+    "index": 157,
+    "excluded": "Questão anulada no gabarito oficial do Inep; as alternativas não correspondem à parcela fixa informada."
+  },
+  {
+    "index": 158,
+    "topics": [
+      "funcoes"
+    ],
+    "rubric": [
+      1,
+      1,
+      0
+    ],
+    "rationale": "Identifica o máximo de uma função quadrática e o intervalo que contém seu vértice.",
+    "explanation": [
+      "O modelo é $p(t)=-t^2+10t+24$. Como a concavidade é negativa, seu máximo ocorre no vértice.",
+      "Temos $t_v=-10/(2\\times(-1))=5$. O mês de maior número de infectados é o quinto.",
+      "A proposta III engloba $5\\leq t\\leq6$. Alternativa C."
+    ]
+  },
+  {
+    "index": 159,
+    "excluded": "Sequência periódica por repetição de ciclo; não é progressão aritmética nem geométrica e não se enquadra nos temas."
+  },
+  {
+    "index": 160,
+    "topics": [
+      "espacial"
+    ],
+    "rubric": [
+      2,
+      1,
+      0
+    ],
+    "rationale": "Requer acompanhar mudanças de direção entre faces e projetar um percurso tridimensional.",
+    "explanation": [
+      "Acompanhe o robô por centros de faces, alternando esquerda e direita. Ele percorre as seis faces antes de retornar ao ponto inicial.",
+      "Na projeção sobre a base, os trechos verticais das faces laterais se reduzem a pontos; os trechos paralelos à base mantêm suas direções.",
+      "As partes restantes formam dois quadriláteros opostos que se encontram no centro da base, na orientação mostrada em A."
+    ]
+  },
+  {
+    "index": 161,
+    "topics": [
+      "plana"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Decompõe uma área em L e aplica o quadrado do fator de escala.",
+    "explanation": [
+      "Na planta, decompomos a varanda em um retângulo de $16\\times5$ cm e outro de $4\\times(18{,}4-5)$ cm.",
+      "A área na planta é $80+53{,}6=133{,}6$ cm².",
+      "Na escala $1:50$, 1 cm representa 0,5 m; logo 1 cm² representa 0,25 m². A área real é $133{,}6\\times0{,}25=33{,}40$ m². Alternativa A."
+    ]
+  },
+  {
+    "index": 162,
+    "topics": [
+      "funcoes",
+      "pa"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Prolonga duas tendências lineares e soma os valores dos três períodos, em vez de apenas o último.",
+    "explanation": [
+      "No setor adulto, as vendas por período de dez dias seguem $18000,15000,12000$, uma PA de razão $-3000$.",
+      "No infantil, seguem $8000,7000,6000$, de razão $-1000$.",
+      "O total do mês será $18000+15000+12000+8000+7000+6000=66000$ reais. Faltam $77000-66000=11000$ reais. Alternativa C."
+    ]
+  },
+  {
+    "index": 163,
+    "topics": [
+      "algebra"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Utiliza uma média ponderada como limite para determinar um reajuste desconhecido.",
+    "explanation": [
+      "Os mestres passam a receber $8000\\times1{,}25=10000$ reais. O total mensal permitido é $100\\times12240=1224000$ reais.",
+      "Depois dos $60\\times10000=600000$ reais dos mestres, restam no máximo 624000 reais para os 40 doutores, ou R$ 15600 por doutor.",
+      "O reajuste máximo é $(15600-12000)/12000=0{,}30=30\\%$. Alternativa D."
+    ]
+  },
+  {
+    "index": 166,
+    "topics": [
+      "funcoes"
+    ],
+    "rubric": [
+      2,
+      1,
+      0
+    ],
+    "rationale": "Distingue cruzamentos de gráficos em que o carro ultrapassa daqueles em que ele é ultrapassado.",
+    "explanation": [
+      "O último carro é o da reta que chega a 100 m somente em 15 s.",
+      "Ele começa à frente de alguns carros, mas isso não é ultrapassagem após a largada. Nos cruzamentos seguintes, suas posições passam de à frente para atrás.",
+      "Portanto esse carro é ultrapassado, mas não ultrapassa nenhum outro durante a corrida: zero ultrapassagens, alternativa A."
+    ]
+  },
+  {
+    "index": 168,
+    "topics": [
+      "plana"
+    ],
+    "rubric": [
+      1,
+      1,
+      0
+    ],
+    "rationale": "Interpreta orientação relativa em um caminho plano e atualiza esquerda e direita a cada mudança.",
+    "explanation": [
+      "Começando em P, o automóvel se desloca para cima. No primeiro cruzamento vira à direita e, no seguinte, segue em frente.",
+      "A cada novo cruzamento, tome como referência a direção atual do carro, e não a posição fixa da folha.",
+      "Percorrendo o traçado, obtemos D, F, E, F, D, D, E, E, F, F, D. A sequência é DFEFDDEEFFD, alternativa C."
+    ]
+  },
+  {
+    "index": 169,
+    "topics": [
+      "espacial"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Compara volumes e distingue variações na área da base de variações no raio.",
+    "explanation": [
+      "Se o volume do modelo I é $V=A_bP$, no II o volume é $(A_b/2)(2P)=V$. No III, reduzir o raio pela metade reduz a área a um quarto: volume $V/2$.",
+      "No IV, o dobro da área com metade da altura também dá $V$.",
+      "No V, o dobro do raio quadruplica a área; com metade da altura, o volume é $2V$. Portanto o maior é V, alternativa E."
+    ]
+  },
+  {
+    "index": 172,
+    "topics": [
+      "espacial",
+      "plana"
+    ],
+    "rubric": [
+      1,
+      1,
+      2
+    ],
+    "rationale": "Calcula áreas de cinco prismas sem tampa e compara resultados, mantendo volume e área distintos.",
+    "explanation": [
+      "Para profundidade $h$, largura $l$ e comprimento $c$, a área interna a revestir é $A=lc+2h(l+c)$. Não há tampa.",
+      "As áreas dos projetos I a V são, respectivamente, $147{,}2$, $101$, $132$, $117$ e $111$ m².",
+      "O menor valor é 101 m², do projeto II. Alternativa B."
+    ]
+  },
+  {
+    "index": 174,
+    "topics": [
+      "espacial"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Usa conservação de volume e converte o diâmetro das esferas em raio.",
+    "explanation": [
+      "O cilindro tem volume $V_c=\\pi\\times4^2\\times50=800\\pi$ cm³.",
+      "Cada esfera tem raio 0,5 cm e volume $V_e=4\\pi(0{,}5)^3/3=\\pi/6$ cm³.",
+      "Sem perdas, a quantidade é $V_c/V_e=800\\pi/(\\pi/6)=4800$. Alternativa D."
+    ]
+  },
+  {
+    "index": 176,
+    "topics": [
+      "plana"
+    ],
+    "rubric": [
+      2,
+      2,
+      1
+    ],
+    "rationale": "O menor caminho exige reflexão de um ponto e interseção de uma reta com o eixo.",
+    "explanation": [
+      "A cidade A está em $(20,40)$ e B em $(50,20)$. Reflita B em relação à rodovia horizontal, obtendo $B′=(50,-20)$.",
+      "Para um ponto P na rodovia, $PB=PB′$. Logo, minimizar $AP+PB$ equivale a fazer o segmento reto de A até $B′$.",
+      "A descida total é 60 km. Até o eixo, desce-se 40 km, isto é, $2/3$ do caminho. O avanço horizontal é $(2/3)(50-20)=20$ km.",
+      "O ponto ideal tem $x=20+20=40$ km, localização IV. Alternativa D."
+    ]
+  },
+  {
+    "index": 178,
+    "topics": [
+      "espacial"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Combina a variação cúbica do volume com a mudança na quantidade de esferas.",
+    "explanation": [
+      "Dobrar o diâmetro de uma esfera multiplica seu volume por $2^3=8$.",
+      "O cliente também quer três vezes mais docinhos: $150/50=3$.",
+      "A massa necessária é $8\\times3=24$ vezes uma receita-base. São 24 porções, alternativa E."
+    ]
+  },
+  {
+    "index": 179,
+    "topics": [
+      "pa",
+      "algebra"
+    ],
+    "rubric": [
+      1,
+      1,
+      0
+    ],
+    "rationale": "Reconhece a propriedade do termo médio de uma PA e calcula o termo seguinte.",
+    "explanation": [
+      "Se 2013 é a média de 2012 e 2014, então $74{,}23=(73{,}95+x)/2$.",
+      "Logo, $x=2\\times74{,}23-73{,}95=74{,}51$. Equivalentemente, repetimos o acréscimo de 0,28 ano.",
+      "A esperança de vida seria 74,51 anos, alternativa B."
+    ]
+  },
+  {
+    "index": 180,
+    "topics": [
+      "espacial"
+    ],
+    "rubric": [
+      2,
+      1,
+      0
+    ],
+    "rationale": "Transforma arcos sobre uma esfera em projeções e identifica dois setores opostos.",
+    "explanation": [
+      "Na vista superior, os polos N e S se projetam no centro do círculo do Equador.",
+      "Cada trecho de meridiano destacado se projeta como um raio. Como os planos dos meridianos são perpendiculares, esses raios formam ângulos retos.",
+      "Os trechos do Equador continuam como arcos de circunferência. O resultado é o contorno de dois quartos de círculo opostos, como em E."
+    ]
+  }
+]

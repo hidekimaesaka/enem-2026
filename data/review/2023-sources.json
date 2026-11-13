@@ -1,0 +1,6 @@
+{
+  "examUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
+  "answerUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
+  "booklet": "Caderno 7 — Azul — 2º dia — Aplicação regular impressa",
+  "verificationNotes": "45 itens conferidos no caderno e no gabarito oficiais. Recuperados enunciados 141 e 142 e texto de 146. Disciplina incorreta da API ignorada; 164 anulada excluída."
+}

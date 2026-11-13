@@ -1,0 +1,545 @@
+[
+  {
+    "index": 136,
+    "topics": [
+      "plana"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Combina dimensionamento proporcional da bandeira e área mínima do tecido azul.",
+    "explanation": [
+      "Os 20 módulos de comprimento cabem nos 180 cm do tecido; então 1 módulo mede 9 cm. A largura resultante é 14×9 = 126 cm, que cabe nos 150 cm.",
+      "O raio do círculo azul é 3,5 módulos = 31,5 cm. O quadrado mínimo que o contém precisa ter lado igual ao diâmetro: 63 cm. Alternativa D."
+    ]
+  },
+  {
+    "index": 137,
+    "excluded": "Leitura e simplificação de razão de assentos, fora dos nove temas."
+  },
+  {
+    "index": 138,
+    "topics": [
+      "espacial"
+    ],
+    "rubric": [
+      1,
+      1,
+      2
+    ],
+    "rationale": "Compara volumes de sólidos semelhantes após converter litros em centímetros cúbicos.",
+    "explanation": [
+      "Na maquete, o volume é 2×3,51×4 = 28,08 cm³. O volume real é 28 080 litros = 28 080 000 cm³.",
+      "A razão entre volumes é 28,08/28 080 000 = 1/1 000 000 = (1/100)³. Logo a escala linear é 1:100. Alternativa B."
+    ]
+  },
+  {
+    "index": 139,
+    "excluded": "Comparação de produtividade e leitura de gráficos."
+  },
+  {
+    "index": 140,
+    "topics": [
+      "plana"
+    ],
+    "rubric": [
+      2,
+      1,
+      1
+    ],
+    "rationale": "Usa divisão de área e compara combinações de caixas inteiras e preços.",
+    "explanation": [
+      "A sala tem área 3,2×3,6 = 11,52 m² e cada peça mede 0,8² = 0,64 m². Com aproveitamento dos recortes, são necessárias 18 peças.",
+      "Três caixas A e duas B fornecem 18 peças por 3×35+2×27 = R$ 159. É a combinação sem sobra e de menor custo.",
+      "No texto importado, a alternativa C estava transcrita incorretamente. No caderno oficial, ela diz “3 caixas do tipo A e 2 caixas do tipo B”. Alternativa C."
+    ]
+  },
+  {
+    "index": 141,
+    "topics": [
+      "combinatoria"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Conta ocorrências de um algarismo em centenas, dezenas e unidades, sem confundir quartos com peças.",
+    "explanation": [
+      "De 100 a 399, o algarismo 2 aparece na centena dos 100 quartos de 200 a 299.",
+      "Em cada uma das três centenas, aparece 10 vezes na dezena e 10 na unidade: 3×(10+10)=60.",
+      "O total de peças com algarismo 2 é 100+60=160. Alternativa A."
+    ]
+  },
+  {
+    "index": 142,
+    "topics": [
+      "probabilidade"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "A ordem por idade fixa uma posição e o sorteio atua apenas entre os empatados.",
+    "explanation": [
+      "Ordene os 12 idosos da tabela por idade decrescente. João pertence ao grupo de mesma idade que ocupa as posições do sorteio em que a sétima está incluída.",
+      "Dentro desse grupo de quatro empatados, cada pessoa tem a mesma chance de ocupar a sétima posição: 1/4. Alternativa E."
+    ]
+  },
+  {
+    "index": 143,
+    "topics": [
+      "pa",
+      "funcoes"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Extrapola uma sequência linear de médias até um patamar percentual.",
+    "explanation": [
+      "A meta é 70% de 16 anos, isto é, 11,2 anos. A tabela mostra 5,2 anos em 1995, 5,8 em 1999, 6,4 em 2003 e 7,0 em 2007.",
+      "O acréscimo é 0,6 ano de estudo a cada quatro anos. Para subir de 5,2 até 11,2, são necessários (11,2−5,2)/0,6 = 10 períodos.",
+      "Dez períodos de quatro anos após 1995 levam a 2035. Alternativa D."
+    ]
+  },
+  {
+    "index": 144,
+    "excluded": "Conversões de unidades e aritmética de vazão."
+  },
+  {
+    "index": 145,
+    "topics": [
+      "espacial"
+    ],
+    "rubric": [
+      2,
+      1,
+      1
+    ],
+    "rationale": "Usa escala do troféu com restrição de largura e folgas laterais e superior.",
+    "explanation": [
+      "A caixa permite uma base da miniatura 2 cm menor em cada dimensão interna, por causa de 1 cm de folga em cada lado.",
+      "Compare as dimensões admissíveis com as da base do troféu; a menor razão controla a escala. A altura do troféu miniaturizado é 12 cm.",
+      "Somando os 2 cm entre a esfera e a tampa, a altura interna da caixa é 14 cm. Alternativa B."
+    ]
+  },
+  {
+    "index": 146,
+    "topics": [
+      "algebra"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Resolve uma inequação modular para a profundidade do degrau.",
+    "explanation": [
+      "A regra é |2h+b−63,5| ≤ 1,5. Com h=16, temos |b−31,5| ≤ 1,5.",
+      "Logo −1,5 ≤ b−31,5 ≤ 1,5, ou 30 ≤ b ≤ 33 cm. Alternativa C."
+    ]
+  },
+  {
+    "index": 147,
+    "excluded": "Conversão aritmética de consumo de combustível."
+  },
+  {
+    "index": 148,
+    "excluded": "Leitura de gráfico estatístico e porcentagem."
+  },
+  {
+    "index": 149,
+    "topics": [
+      "funcoes",
+      "algebra"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Lineariza uma lei de potência aplicando propriedades de logaritmos.",
+    "explanation": [
+      "Na Lei de Zipf, f=A/rᴮ. Tirando logaritmos: log f = log A − B log r.",
+      "Como Y=log f e X=log r, obtemos Y=−BX+log A, uma reta decrescente. Alternativa A."
+    ]
+  },
+  {
+    "index": 150,
+    "topics": [
+      "pg",
+      "funcoes"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Compara proporções remanescentes em uma função exponencial de meia-vida.",
+    "explanation": [
+      "A fórmula do carbono 14 é Q(t)=Q₀(1/2)^(t/5730). A razão Q/Q₀ diminui quando a idade t aumenta.",
+      "Calcule a razão de cada linha da tabela entre a quantidade no fóssil e no ser vivo; a menor razão está no fóssil 2.",
+      "Portanto o fóssil 2 é o mais antigo. Alternativa B."
+    ]
+  },
+  {
+    "index": 151,
+    "topics": [
+      "espacial",
+      "plana"
+    ],
+    "rubric": [
+      0,
+      1,
+      0
+    ],
+    "rationale": "Identifica faces planas de um tronco de pirâmide quadrangular.",
+    "explanation": [
+      "As bases paralelas são dois quadrados, de tamanhos diferentes.",
+      "O corte paralelo à base transforma cada face triangular lateral em um trapézio isósceles. São quatro laterais. Alternativa C."
+    ]
+  },
+  {
+    "index": 152,
+    "topics": [
+      "espacial",
+      "funcoes"
+    ],
+    "rubric": [
+      2,
+      2,
+      1
+    ],
+    "rationale": "Combina volumes prismáticos, aumentos percentuais sucessivos e áreas de bases.",
+    "explanation": [
+      "O volume retirado do tanque T₁ é cLx. Após os dois aeradores, o volume se torna 1,15×1,10×cLx = 1,265cLx.",
+      "A base de T₂ tem área cL, conforme as dimensões oficiais da figura e fórmula. Logo cLy=1,265cLx e y=1,265x. Alternativa A."
+    ]
+  },
+  {
+    "index": 153,
+    "excluded": "Comparação aritmética de tempos de deslocamento."
+  },
+  {
+    "index": 154,
+    "excluded": "Conversão de unidades para notação científica."
+  },
+  {
+    "index": 155,
+    "topics": [
+      "pg"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Identifica lado inicial e razão de uma progressão geométrica até o centésimo termo.",
+    "explanation": [
+      "Os lados dos quadrados formam uma PG: 1, 1/2, 1/4, ...; a razão é 1/2.",
+      "O lado do n-ésimo quadrado é (1/2)^(n−1). Para n=100, resulta (1/2)^99 = 1/2^99. Alternativa B."
+    ]
+  },
+  {
+    "index": 156,
+    "excluded": "Leitura de gráficos e receita aritmética."
+  },
+  {
+    "index": 157,
+    "excluded": "Questão anulada no gabarito oficial."
+  },
+  {
+    "index": 158,
+    "topics": [
+      "combinatoria"
+    ],
+    "rubric": [
+      2,
+      1,
+      1
+    ],
+    "rationale": "Conta caminhos monotônicos e retira aqueles que passam pelo ponto proibido.",
+    "explanation": [
+      "Um caminho usa apenas passos para a direita e para cima. Conte todos os arranjos dos passos necessários de A até B por um coeficiente binomial.",
+      "Conte separadamente os caminhos que passam por C: caminhos A→C multiplicados pelos caminhos C→B.",
+      "A diferença é 17 caminhos. Alternativa C."
+    ]
+  },
+  {
+    "index": 159,
+    "excluded": "Comparação aritmética de preços e fretes."
+  },
+  {
+    "index": 160,
+    "excluded": "Aritmética de consumo e distância."
+  },
+  {
+    "index": 161,
+    "topics": [
+      "espacial",
+      "algebra"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Iguala volumes cilíndricos e isola o raio quando a altura muda.",
+    "explanation": [
+      "Os volumes são πR²h para A e πr²(h/4) para B. Como são iguais, R²h=r²h/4.",
+      "Portanto r²=4R² e r=2R. Alternativa B."
+    ]
+  },
+  {
+    "index": 162,
+    "topics": [
+      "plana"
+    ],
+    "rubric": [
+      2,
+      1,
+      1
+    ],
+    "rationale": "Exige verificar simultaneamente afastamentos e faixa de área construída.",
+    "explanation": [
+      "Cada lote tem 200 m², então a área da casa deve estar entre 80 e 100 m².",
+      "Para cada planta, subtraia os afastamentos mínimos de 4 m da rua e 1 m das divisas; calcule área dentro dos limites.",
+      "Apenas a casa 5 respeita as três regras ao mesmo tempo. Alternativa E."
+    ]
+  },
+  {
+    "index": 163,
+    "topics": [
+      "combinatoria"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Conta permutações com letras repetidas em padrão alternado de vogais e consoantes.",
+    "explanation": [
+      "“I AM POTTER” tem quatro vogais I,A,O,E e cinco consoantes M,P,T,T,R. Para alternar, a sequência deve ser C–V–C–V–C–V–C–V–C.",
+      "As vogais podem ser permutadas de 4! modos. As consoantes, de 5!/2! modos, pois T aparece duas vezes.",
+      "O total é 4!×5!/2! = 1 440. Alternativa E."
+    ]
+  },
+  {
+    "index": 164,
+    "excluded": "Leitura de gráfico de níveis de ruído."
+  },
+  {
+    "index": 165,
+    "excluded": "Média aritmética de estaturas."
+  },
+  {
+    "index": 166,
+    "topics": [
+      "funcoes",
+      "espacial"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Relaciona seção transversal da garrafa e taxa de crescimento da altura sob vazão constante.",
+    "explanation": [
+      "Com vazão constante, a altura cresce mais devagar nas partes largas da garrafa e mais rápido nas estreitas.",
+      "No corpo largo, o gráfico tem menor inclinação. Ao atingir o gargalo estreito, a inclinação aumenta até o nível de envasamento.",
+      "O desenho correspondente é a alternativa B."
+    ]
+  },
+  {
+    "index": 167,
+    "excluded": "Porcentagem aritmética de despesas."
+  },
+  {
+    "index": 168,
+    "topics": [
+      "espacial"
+    ],
+    "rubric": [
+      1,
+      2,
+      1
+    ],
+    "rationale": "Relaciona deslocamento de água ao volume total das bolinhas submersas.",
+    "explanation": [
+      "Pelo desenho, a base interna do recipiente mede 3×4 = 12 cm². A água deve subir de 8 para 15 cm, uma diferença de 7 cm.",
+      "O volume a deslocar é 12×7 = 84 cm³. Cada bolinha desloca 6 cm³, então são necessárias 84/6 = 14 bolinhas. Alternativa A."
+    ]
+  },
+  {
+    "index": 169,
+    "topics": [
+      "probabilidade",
+      "algebra"
+    ],
+    "rubric": [
+      2,
+      1,
+      1
+    ],
+    "rationale": "Usa inclusão e exclusão para separar A, B, AB e O.",
+    "explanation": [
+      "Das 200 pessoas, 20 têm tipo O; portanto 180 possuem ao menos um dos antígenos A ou B.",
+      "Pela inclusão e exclusão, A∩B = 100+110−180 = 30.",
+      "O tipo A sem B tem 100−30 = 70 pessoas. Alternativa C."
+    ]
+  },
+  {
+    "index": 170,
+    "excluded": "Divisão proporcional aritmética."
+  },
+  {
+    "index": 171,
+    "topics": [
+      "plana"
+    ],
+    "rubric": [
+      1,
+      1,
+      0
+    ],
+    "rationale": "Reconhece formas geométricas dos espaços entre octógonos regulares.",
+    "explanation": [
+      "No encontro de quatro octógonos regulares, as lacunas internas têm quatro lados iguais e ângulos retos: são quadrados.",
+      "Nas bordas do painel, a metade dessas lacunas tem dois catetos iguais e um ângulo reto: são triângulos retângulos isósceles.",
+      "São necessários os formatos 1 e 3. Alternativa D."
+    ]
+  },
+  {
+    "index": 172,
+    "topics": [
+      "espacial",
+      "plana"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Combina geratriz de cone, divisão do comprimento total e teorema de Pitágoras.",
+    "explanation": [
+      "As 20 mangueiras têm comprimento igual e somam 100 m; cada geratriz mede 5 m. A altura do vértice sobre o chão é 3 m.",
+      "O raio é um cateto do triângulo retângulo: r²+3²=5², portanto r=4 m. Alternativa A."
+    ]
+  },
+  {
+    "index": 173,
+    "topics": [
+      "trigonometria",
+      "plana"
+    ],
+    "rubric": [
+      2,
+      1,
+      1
+    ],
+    "rationale": "Relaciona sombra projetada, ângulo solar e metade do vão descoberto.",
+    "explanation": [
+      "Ao meio-dia, o vão iluminado mede 30 cm. À tarde, precisa medir 15 cm para passar metade da luz.",
+      "A sombra lateral projetada pela viga deve então medir 15 cm. Com 30° em relação à vertical, tan 30° = 15/h.",
+      "Logo h = 15/tan 30° = 15√3 ≈ 26 cm. Alternativa C."
+    ]
+  },
+  {
+    "index": 174,
+    "topics": [
+      "plana"
+    ],
+    "rubric": [
+      2,
+      2,
+      1
+    ],
+    "rationale": "Decompõe a região em trechos geométricos, aplica densidades diferentes e desconta carros de som.",
+    "explanation": [
+      "MN: 100×30×4 = 12 000 pessoas andando. NO: 300×30×6 = 54 000 paradas. OP: 200×30×5 = 30 000 se movimentando no local.",
+      "QR: 100×30×4 = 12 000 andando. A soma dos quatro trechos é 108 000.",
+      "Há quatro carros de som no mapa: descontamos 4 000, obtendo 104 000 pessoas. Alternativa B."
+    ]
+  },
+  {
+    "index": 175,
+    "topics": [
+      "funcoes"
+    ],
+    "rubric": [
+      2,
+      1,
+      1
+    ],
+    "rationale": "Subtrai funções representadas graficamente e identifica inclinações e interceptos.",
+    "explanation": [
+      "Em cada quantidade produzida, o lucro é L(q)=R(q)−C(q). Leia no gráfico os valores de receita e custo nos pontos de mudança de trecho.",
+      "Subtraindo as ordenadas ponto a ponto, o lucro inicial é negativo; depois cresce e muda de inclinação quando a receita ou o custo muda de inclinação.",
+      "O gráfico que reproduz as diferenças e os pontos de mudança é o da alternativa A."
+    ]
+  },
+  {
+    "index": 176,
+    "topics": [
+      "espacial"
+    ],
+    "rubric": [
+      2,
+      1,
+      1
+    ],
+    "rationale": "Compara projeções ortogonais de um mesmo conjunto de cubos em três direções.",
+    "explanation": [
+      "Em cada vista, projete os quatro cubos sobre o plano correspondente, ignorando a profundidade. Cubos alinhados na direção de observação sobrepõem-se na projeção.",
+      "Compare as três silhuetas com as faces do sólido rígido, preservando a orientação relativa dos cubos.",
+      "Só a alternativa E é coerente nas três vistas."
+    ]
+  },
+  {
+    "index": 177,
+    "topics": [
+      "espacial",
+      "plana"
+    ],
+    "rubric": [
+      1,
+      1,
+      0
+    ],
+    "rationale": "Reconhece orientação dos planos inclinados e linhas de maior declive na planta.",
+    "explanation": [
+      "A água escoa de cada superfície inclinada no sentido perpendicular às linhas horizontais de nível, afastando-se das cumeeiras.",
+      "Na planta de três águas, duas setas apontam para as bordas laterais e uma para a borda frontal, como na alternativa B."
+    ]
+  },
+  {
+    "index": 178,
+    "topics": [
+      "probabilidade"
+    ],
+    "rubric": [
+      1,
+      1,
+      1
+    ],
+    "rationale": "Calcula valor esperado para duas condições climáticas e compara cinco opções.",
+    "explanation": [
+      "Para cada pneu, CRC = 0,7×EC(com chuva)+0,3×EC(sem chuva).",
+      "Os resultados são I: 5,1; II: 3,7; III: 1,6; IV: 3,8; V: −2,1.",
+      "O maior CRC é o do pneu I. Alternativa A."
+    ]
+  },
+  {
+    "index": 179,
+    "excluded": "Conversão de unidades e multiplicação."
+  },
+  {
+    "index": 180,
+    "excluded": "Média ponderada estatística."
+  }
+]
