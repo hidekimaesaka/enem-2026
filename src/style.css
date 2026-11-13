@@ -29,3 +29,10 @@
   .question-top .eyebrow {font-size: 10px;}
   .badge {font-size: 11px;}
 }
+
+.brand>div>span{letter-spacing:1.35px}
+.science-heading{margin-top:40px}
+.science-grid{margin-bottom:28px}
+@media(max-width:1000px){.brand>div>span{letter-spacing:.9px}}
+@media(max-width:767px){.brand>div>span{letter-spacing:.6px}}
+@media(max-width:380px){.header-brand .brand{font-size:12px}.brand>div>span{font-size:7px;letter-spacing:.3px}}

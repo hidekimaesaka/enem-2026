@@ -1,0 +1,38 @@
+{
+  "2019-98": {
+    "correctAlternative": "E",
+    "context": "Os olhos humanos normalmente têm três tipos de cones responsáveis pela percepção das cores: um tipo para tons vermelhos, um para tons azuis e outro para tons verdes. As diversas cores que enxergamos são o resultado da percepção das cores básicas. No diagrama de mistura aditiva apresentado na prova, vermelho e verde formam amarelo, vermelho e azul formam magenta, verde e azul formam ciano, e as três cores formam branco. A protanopia é um tipo de daltonismo em que há diminuição ou ausência de receptores da cor vermelha. Considere um teste com dois voluntários: uma pessoa com visão normal e outra com caso severo de protanopia. Nesse teste, eles devem escrever a cor dos cartões que lhes são mostrados. São utilizadas as cores indicadas no diagrama.",
+    "alternativesIntroduction": "Para qual cartão os dois voluntários identificarão a mesma cor?",
+    "alternatives": [
+      {"letter": "A", "text": "Vermelho."},
+      {"letter": "B", "text": "Magenta."},
+      {"letter": "C", "text": "Amarelo."},
+      {"letter": "D", "text": "Branco."},
+      {"letter": "E", "text": "Azul."}
+    ]
+  },
+  "2019-100": {
+    "correctAlternative": "D",
+    "context": "Um alimento orgânico deve apresentar em sua embalagem o selo de uma instituição certificadora, garantindo ao consumidor que, além de ser um alimento isento de agrotóxicos, também é produzido com técnicas planejadas e controladas. A técnica de produção desses alimentos causa menor impacto aos recursos naturais, contribuindo para melhorar a qualidade de vida das pessoas.",
+    "alternativesIntroduction": "Nesse sistema de produção de alimentos vegetais, o controle de insetos é manejado por meio do(a)",
+    "alternatives": [
+      {"letter": "A", "text": "Prática de adubação verde."},
+      {"letter": "B", "text": "Emprego da compostagem."},
+      {"letter": "C", "text": "Controle da irrigação do solo."},
+      {"letter": "D", "text": "Utilização de predadores naturais."},
+      {"letter": "E", "text": "Uso de sementes inoculadas com Rhizobium."}
+    ]
+  },
+  "2019-128": {
+    "correctAlternative": "E",
+    "context": "Em 1808, Dalton publicou os cinco postulados de sua primeira teoria atômica: 1. A matéria é constituída de átomos indivisíveis. 2. Todos os átomos de um dado elemento químico são idênticos em massa e em todas as outras propriedades. 3. Diferentes elementos químicos têm diferentes tipos de átomos e diferentes massas. 4. Os átomos são indestrutíveis e nas reações químicas mantêm suas identidades. 5. Átomos de elementos combinam com átomos de outros elementos em proporções de números inteiros pequenos para formar compostos. Após Dalton, outros modelos experimentais evidenciaram a natureza elétrica da matéria, a composição e organização do átomo e a quantização da energia.",
+    "alternativesIntroduction": "Com base no modelo atual que descreve o átomo, qual dos postulados de Dalton ainda é considerado correto?",
+    "alternatives": [
+      {"letter": "A", "text": "1."},
+      {"letter": "B", "text": "2."},
+      {"letter": "C", "text": "3."},
+      {"letter": "D", "text": "4."},
+      {"letter": "E", "text": "5."}
+    ]
+  }
+}
